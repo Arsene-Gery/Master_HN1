@@ -1,0 +1,424 @@
+\documentclass[12pt]{report}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,
+	urlcolor=cyan,
+	citecolor=black,
+}
+\usepackage{graphicx}
+\usepackage{caption} % Add caption package
+\usepackage{setspace} % Add setspace package
+\usepackage{titling}
+\usepackage{titlesec} % Add titlesec package
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{biblatex}
+\addbibresource{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/TEX/bibliography.bib}
+\AtEveryBibitem{\clearfield{urldate}}
+
+% Customize the chapter and section title font sizes
+\titleformat{\chapter}[display]
+{\normalfont\Large\bfseries} % Adjusted to \large
+{\chaptertitlename\ \thechapter}{25pt}{\Large} % Adjusted to \large
+\titleformat{\section}
+{\normalfont\large\bfseries} % Adjusted to \normalsize
+{\thesection}{1em}{}
+
+% Set caption alignment to left
+\captionsetup{justification=raggedright, singlelinecheck=false}
+
+\lstset{
+	language=Python,
+	basicstyle=\small\ttfamily,
+	keywordstyle=\color{blue},
+	stringstyle=\color{green!60!black},
+	commentstyle=\color{gray},
+	numberstyle=\tiny\color{gray},
+	stepnumber=1,
+	numbersep=5pt,
+	backgroundcolor=\color{white},
+	frame=tb,
+	rulecolor=\color{gray},
+	breaklines=true,
+	showstringspaces=false,
+	upquote=true,
+	columns=fullflexible,
+	morekeywords={as},
+	tabsize=4,
+	showtabs=false,
+	showspaces=false,
+	breakatwhitespace=false,
+}
+
+\title{
+	\vspace{-2cm}
+	\Large{UNIVERSITÉ PARIS, SCIENCES \& LETTRES}
+	\\
+	\vspace{0.5cm}
+	\rule{0.3\textwidth}{0.4pt}
+	\\
+	\vspace{2cm}
+	\large\textbf{Arsène Géry}
+	\\
+	\large\textit{MSc Evolutionary Anthropology}
+	\\
+	\vspace{4cm}
+	\large\textbf{Clustering Religious Traditions:\\ Examinating the Divergent Modes of Religiosity Theory}
+	\\
+	\vspace{5cm}
+	\large{First year of Master's degree in}
+	\\
+	\Large\textit{Humanités Numériques}
+	\\
+	\vspace{1cm}
+	\normalsize{June 2024}
+}
+
+\date{}
+
+\begin{document}
+	\onehalfspacing % Set line spacing to 1.5
+	
+	\begin{titlepage}
+		\centering
+		\maketitle
+		\thispagestyle{empty}
+	\end{titlepage}
+	
+	\chapter*{Acknowledgments}
+	\addcontentsline{toc}{chapter}{Acknowledgments}
+	Firstly, I would like to thank my two supervisors who helped me navigate the complexity and richness of this subject. Mr. Chahan Vidal-Gorène, I thank you for helping me broaden my understanding of the methodological approaches employed in this project. I also thank you for your active role and kindness in counselling me throughout the year. Mr. Nicolas Baumard, I thank you for your support in providing me with the necessary reading material and constructive feedback to formulate the original ideas presented in this research project. \\
+	
+	***\\
+	\\
+	I also thank all my teachers at Ecole Nationale des Chartes (PSL) for their overall brilliance and availability throughout the year.\\
+	
+	***\\
+	\\
+	Last but not least, I would also like to thank my wife, family, and friends who have all lent me their unconditional support, and without whom I would not have had the courage to embark on this journey.  
+	
+	\tableofcontents
+	
+	\chapter*{Abstract}
+	Building upon Harvey Whitehouse's Divergent Modes of Religiosity (DMR) theory, which classifies religious traditions into imagistic and doctrinal modes, this study employs advanced statistical methods and data visualization techniques on ritual data from the eHRAF world cultures database. The objectives are twofold: to assess the replicability of Whitehouse's categories within a statistical framework, and to uncover hidden patterns within the data, providing a robust quantitative foundation for understanding the relationship between ritual content and societal structure. The results reveal coherent groupings of religious traditions across ritual-level and society-level predictors. The use of advanced visualization techniques, such as dendrograms and heatmaps, enhances the interpretability of the findings, offering novel insights into the significant differences between clusters of religious traditions. This study contributes to our understanding of the formation and differentiation of religious traditions and lays the necessary groundwork for a more in-depth investigation of cross-cultural religious phenomena.\\
+	\\
+	\noindent En s'appuyant sur la théorie des \textit{Divergent Modes of Religiosity} (DMR) de Harvey Whitehouse, qui classe les traditions religieuses en modes imagistique et doctrinal, ce projet de recherche utilise des méthodes statistiques et des techniques de visualisation des données pour explorer les données rituelles de la base de données de \textit{eHRAF world cultures database}. Les objectifs de cette investigation sont doubles : évaluer la reproductibilité des catégories de Whitehouse, et découvrir des méthodes quantitatives robustes pour comprendre la relation entre le contenu rituel et la structure sociétale. Les résultats révèlent des groupements cohérents de traditions religieuses. L'utilisation de techniques de visualisation améliore l'interprétabilité des résultats et permet de comprendre les différences significatives entre les groupements de traditions religieuses. Cette étude contribue à notre compréhension de la différenciation des traditions religieuses. Elle offre également de nouvelles perspectives sur la formation et la différenciation des traditions religieuses. 
+	
+	\vspace{0.5cm}
+	\noindent\textbf{Keywords:} Cultural Anthropology, Divergent Modes of Religiosity (DMR), Religious Rituals, Cross-Cultural Analysis, Imagistic and Doctrinal, Statistical Methods, Hierarchical Clustering, Principal Component Analysis (PCA).
+	
+	\chapter*{Introduction and aim of the research project}
+	\addcontentsline{toc}{chapter}{Introduction and aim of the research project}
+	Within the domain of human religious practice and experience lies a great diversity of ritual phenomena. Religious rituals are comprised of a collection of ritual actions, or components, and lie at the foundation of all human religious expression, from the historiography of traditional religions (pre-classical religions), to that of large scale modern classical religions strongly influenced by Christianity, Islam, Hinduism, and Buddhism \cite{atkinson2011}. Since the early 2000’s, attempts to understand the ritual differences between traditional religions and classical religions have been undertaken \cite{whitehouse2000}. In 2004, Harvey Whitehouse (Chair of Social Anthropology at the University of Oxford) proposed his Divergent Modes of Religiosity theory (DMR) \cite{whitehouse2004modes}, which posited that religions had a tendency to operate within a spectrum of two distinct modes, the imagistic and the doctrinal. These two modes of religiosity are two distinct ritual conditions under which psychological, cognitive, and social dynamics differ \cite{whitehouse2004modes}. Through the application of statistical methods and data visualisation techniques on the extensive ritual data collected by Whitehouse and Atkinson \cite{atkinson2011} from the Probability Sample Files (PSF) within the Human Relations Area Files world cultures database (eHRAF), I propose an exploration of the two modes of religiosity. My investigation has two distinct purposes. The first is to understand whether the categories produced by Whitehouse are replicable using a statistical framework. The second is to further understand and visualise the underlying structure of the data, and to see whether hidden patterns can be revealed. The second step is the main focus of this research project, which aims at laying a solid quantitatively valid foundation for the explanation of the link between the contents of religious rituals and their effects on the structure of the societies that perform them. In short, in building on Whitehouse’s work, I aim to understand how religious traditions differ from one another, and whether the socio-religious organisation of societies is significantly affected by the religious ritual actions that are performed. In doing so, I wish to elucidate whether the vast cross-cultural expression of human religious phenomena (pertaining to ritual actions) can be mapped effectively. The objective is to set the groundwork for what may become a more in-depth investigation in the years to come. Lastly, to complete this research project, I will hint at potential next steps to further analyse the data, specifically machine learning models that are capable of predicting which ritual actions are most likely to be performed if we are only given knowledge of the socio-religious organisation of a specific society.
+	
+	
+	\chapter{State of the Art}
+	\section{Cognitive Anthropology and Modes of Religiosity}
+	
+	In the archaeological and anthropological literature, the study of religious behaviour is given a great deal of attention. However, one particular aspect of religiosity that has often been overlooked is the psycho-cognitive dimension of religious practices, and notably, of ritual \cite{whitehouse1992}\cite{boyer1993cognitive}. Cognitive anthropology deals with the psychological mechanisms involved in the performance of religious actions, the acquisition of religious knowledge, and its transmission  \cite{boyer2023naturalness}\cite{boyer2007religion}\cite{whitehouse1992}\cite{whitehouse2001}. Boyer (1993, p.4) explains that "the main point of a cognitive framework is to explain the recurrent properties of religious symbolism by giving a precise answer to the following question: what are the mental representations and processes involved in religious beliefs, discourse and actions? How are these representations acquired and transmitted?". Each religious tradition has its own unique set of ritual practices and features composed of diverse sets of images, symbols, myths, and doctrines governing individual beliefs, morality, and perception of self in society and the cosmos \cite{graf1985}\cite{fischer1973cartography}\cite{walsh2005higher}\cite{griffiths2006}\cite{lukoff1990}\cite{sperber2004}. These features give insights into the content and context of religious traditions, and reveal the way in which religious knowledge is handled (acquired and transmitted) through cognitive processes such as memory \cite{whitehouse2001}. Cognitive anthropology aims at understanding the organisation and structure of cultural institutions within societies by means of studying the micro-mechanisms of cognition employed in religious behaviour \cite{boyer1993cognitive}\cite{irons2001religion}\cite{barth1990}\cite{boyer2023naturalness}\cite{sosis2003signaling}\cite{sosis2007scars}\cite{whitehouse2007}\cite{whitehouse2005}\cite{lienard2006}\cite{lawson1990}. The psychological dimension of the ritual is therefore of primary importance to the study of cognitive anthropology. This field of study unifies the psychological dimension of religion, and the biological constraints of cognitive processes within particular cultural and environmental contexts \cite{sosis2003signaling}\cite{sosis2007scars}\cite{mccauley2002}\cite{littlewood2005}\cite{turner1974}\cite{whitehouse1992}\cite{whitehouse2000}. Furthermore, scholars have long argued that religious practice and experience shapes and supports both the social-political institutions and the social order of societies \cite{boyer1993cognitive}\cite{boyer2023naturalness}\cite{hirschfeld1994}\cite{rappaport1999}\cite{sperber1996}\cite{sperber2004}\cite{turner1995}\cite{whitehouse2012}\cite{whitehouse2002}\cite{whitehouse2004modes}.\\
+	\\
+	In all ritual contexts, psychological arousal ("powerful emotions and sensations")\cite{whitehouse1992} is generated through the performance of particular ritual actions \cite{whitehouse2002}. However, some rituals tend to be more arousing than others \cite{whitehouse2004modes}. The term "high arousal" is used to denote a vast range of potential religious experiences generated by a variety of ritual actions, and should not be understood as sexual arousal \cite{whitehouse2004modes}. Profound religious experiences, in ritual context, have commonly been referred to as altered states of consciousness (ASCs) and ecstatic states of consciousness (ESCs) \cite{eliade1959sacred}\cite{eliade2024shamanism}\cite{price-williams1994}\cite{locke1985}\cite{wissler1922}\cite{lewis2003}. Religiosity requires the establishment of methods through which a religious experience may be achieved. It can be argued that all religious experiences (ASCs and ESCs) are pre-eminent human psychological conditions that do not take root in any particular culture ; and that they are in essence a "non-historical", or "transcendental" phenomenon \cite{price-williams1994}\cite{eliade1959sacred}\cite{bloch2008}\cite{griffiths2006}\cite{ludwig1966}. The ritual itself acts as the vehicle through which a religious experience is initiated and directed so as to impart a particular religious teaching. ASCs and ESCs are by nature induced by highly arousing ritual actions predominantly observed in the religious life of traditional societies \cite{hirschfeld1994}. Rituals that are highly arousing (both euphoric and dysphoric)have a tendency to be less frequently repeated over a specific period of time. Reversely, highly frequent rituals tend to generate low dysphoric arousal and relatively high euphoric arousal. This dichotomy of arousal  in human religious practice and experience has led to the formulation of the Divergent Modes of Religiosity theory (DMR) \cite{whitehouse2004modes}\cite{whitehouse2014}\cite{whitehouse2012}, in which these modalities of religious experience have been termed "imagistic" and "doctrinal" modes of religiosity. The Imagistic mode dates back to the Upper Palaeolithic, and predates the doctrinal mode that tends to define post-agricultural societies in the archaeological record \cite{mithen2004}\cite{johne.pfeiffer1984}\cite{whitehouse2004modes}. The particular class of religious specialists characterising the imagistic and the doctrinal mode of religiosity are the shaman and the priesthood respectively \cite{whitehouse2004modes}\cite{klein2002}\cite{lewis2003}. The imagistic mode of religiosity is associated with a wide range of highly psychologically arousing ritual actions known to revolve around psychological ordeals, physical ordeals, and the ingestion of psychoactive compounds \cite{price-williams1994}\cite{whitehouse2002}\cite{derios1974}\cite{havens1964}\cite{lewis2003}\cite{merlin2003}. The psychological tendency to which the imagistic mode of religiosity adheres has for trajectory the profound alteration of consciousness \cite{whitehouse2004modes}\cite{whitehouse2012}. The methods employed to alter consciousness in both the imagistic and doctrinal ritual contexts are fundamentally different in that the two generate opposite dynamics of ritual arousal and frequency \cite{whitehouse2007}. The performance of ritual actions triggers the activation of particular cognitive processes in memory required for the retention and transmission of religious knowledge \cite{whitehouse2001}\cite{whitehouse2005}. It is proposed that these cognitive micro-mechanisms composing a particular religious ritual affect and shape the landscape of psychological, social, and political dynamics within societies \cite{whitehouse2004modes}.\\
+	\\
+	The cognitive processes involved in the generation, memorization, and transmission of religious concepts are tools accessible to the human psychological repertoire \cite{boyer2023naturalness}. Out of this cognitive potential arises a vast diversity of religious forms. Since the conceptual generation of religious thought and its transmission originate in the cognitive architecture of the individual, the activation of particular cognitive processes necessarily plays a role in the particular ritual form a religion takes on \cite{boyer1993cognitive}\cite{boyer2023naturalness}\cite{mccauley2002}. In other words, the transmission of religious knowledge requires the use of memory, and the way in which it is activated yields variation in socio-political dynamics \cite{boyer2023naturalness}\cite{whitehouse2002}. Furthermore, McCauley and Lawson \cite{lawson1990} have proposed that the cultural institutions making up a society do not directly affect one another but instead do so through the cognitive micro-mechanisms that mediate human interaction \cite{whitehouse2007}. The way in which religious knowledge is cognitively handled has been proposed to fundamentally shape the handling of socio-political morphology of societies \cite{boyer1993cognitive}\cite{boyer2023naturalness}\cite{hirschfeld1994}\cite{mccauley2002}\cite{sperber1996}\cite{whitehouse2005}\cite{whitehouse2004modes}. The dynamics of cognitive integration and transmission of religious knowledge forms the basis for the separation of religious experience and practice into two distinct categories: the imagistic and doctrinal modes of religiosity \cite{whitehouse2004modes}. According to Harvey Whitehouse \cite{whitehouse1992}\cite{whitehouse2002}\cite{whitehouse1996}\cite{whitehouse2004modes}, the imagistic and doctrinal modes of religiosity represent two distinct ritual conditions under which psychological and socio-political dynamics differ. Figure 1.1 below outlines the crucial psychological and socio-political characteristics of the imagistic-doctrinal modes of religiosity dichotomy \cite{whitehouse2004modes}.\\
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.1.png} % Adjust the path to your PNG file
+		\caption{Contrasting modes of religiosity \cite{whitehouse2004modes}}
+		\label{fig:table1}
+	\end{figure}
+
+	\noindent Memory has previously been classified into two distinct categories, implicit and explicit \cite{graf1985}\cite{whitehouse2002}\cite{whitehouse2002a}. Implicit memory is activated when performing acquired tasks ; tasks requiring no recollection of their step-by-step performance \cite{whitehouse2004modes}. For example, it is not required to remember how to speak when engaging in conversation. Instead speech flows with continuity. In short, implicit memory deals with that which is known without having the immediate awareness of knowing \cite{whitehouse2002a}. Explicit memory on the other hand deals with consciously accessible knowledge. Unlike implicit memory, explicit memory requires conscious remembrance of events in time and space \cite{boyer1993cognitive}\cite{boyer2023naturalness}. Because explicit memory has a dimension of time, this enables us to sub-divide it into two distinct types, short-term and long-term \cite{whitehouse2005}. Cognitive procedures or pathways employed for the activation of long and short-term memory are non-identical. Short-term memory allows for the recollection of events or concepts for a limited time, generally amounting to seconds and minutes \cite{whitehouse2004modes}. Long-term memory on the other hand allows for the conservation of concepts and experiences for hours, years, or an entire lifetime \cite{whitehouse2004modes}. Long-term memory is additionally sub-divided into episodic and semantic memory. In the religious domain, the activation of these two particular types of memory depends on the way in which religious knowledge is acquired and transmitted \cite{boyer2023naturalness}\cite{boyer2007religion}\cite{whitehouse2005}\cite{whitehouse2004a}\cite{whitehouse1992}\cite{whitehouse2000}\cite{whitehouse2004modes}. In addition, the existence of a ‘flashbulb memory’ phenomenon triggered in states of intense religious significance and emotional arousal has been proposed \cite{whitehouse2002}\cite{whitehouse2004modes}. Furthermore, flashbulb memories appear not to degrade over time, but to become more pronounced \cite{whitehouse2002}. Figure 1.2 illustrates the different types of memory and their relationships described above.\\
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.2.png} % Adjust the path to your PNG file
+		\caption{Types of memory \cite{whitehouse2004modes}}
+		\label{fig:table2}
+	\end{figure}
+
+	\noindent Due to a divergence of intensity in experience (arousal) in the two types of religiosity, differences in the cognitive processing of religious information are also expected to arise \cite{boyer2023naturalness}\cite{boyer2007religion}\cite{whitehouse2007}\cite{whitehouse2002}\cite{whitehouse2004modes}. Whitehouse goes so far as to place the psychology of the imagistic ritual in a distinctive domain of affective, and sensory experiences. In his reporting on the ritual practices of the awan people of Papua New Guinea, Whitehouse remarked, "pervading all these experiences was an awareness of their collective nature, a sense of undergoing something unusual and profoundly significant as a solidary group"\cite{whitehouse2002}. The intensity and character of these experiences provide concrete insight into the reasoning behind much of the socio-political organisation of imagistic societies \cite{boyer1993cognitive}\cite{whitehouse2005}. In 2011, Whitehouse and Atkinson \cite{atkinson2011} proposed the existence of multiple clusters of ritual features that occur cross-culturally due to the inherent "cognitive constraints on the range of possibilities and functional constraints on how features interact with each other and the broader social system". Examples of these constraints are present in ritual forms that "have been associated with costly signalling \cite{irons2001religion}\cite{sosis2003signaling}\cite{sosis2007scars}, obsessive compulsive disorder and the human hazard precaution system \cite{lienard2006}, cognitive constraints on memory systems \cite{whitehouse1992}, the role ascribed to supernatural agency \cite{mccauley2002}\cite{littlewood2005}, modes of codification and transmission \cite{barth1990}\cite{turner1974} and the scale and structure of religious communities \cite{whitehouse2000}". In their 2011 landmark study "The cultural morphospace of ritual form : Examining modes of religiosity cross-culturally", Whitehouse and Atkinson \cite{atkinson2011} extracted an unbiased, randomly selected dataset from "645 religious rituals from 74 cultures around the globe, as documented in the electronic Human Relations Area Files (eHRAF)", that recorded the "frequency, arousal, and contextual information" \cite{atkinson2011} (for full details on dataset collection and data preparation, read Whitehouse and Atkinson 2011, p. 52-53). In this study, Whitehouse and Atkinson sought to use a quantitative framework to test the DMR theory, and identify whether ritual actions could cluster together "along frequency and arousal dimensions and to investigate the cultural correlates of variation in ritual form" \cite{atkinson2011}. In Figure 1.3, I have taken liberty of listing the hypotheses of the 2011 paper so as to clearly outline the main points of the DMR theory.\\
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.3.png} % Adjust the path to your PNG file
+		\caption{Hypotheses of the DMR (\cite{atkinson2011})}
+		\label{fig:table3}
+	\end{figure}
+	
+	\noindent Through the application of correlation analysis using Spearman's rank correlation coefficient, the study found a number of significant negative correlations between mean dysphoric and mean euphoric arousal across a set of predictor variables. In addition to correlation analysis, the study made use of the one-way ANOVA regression methods  to find significant differences in ritual arousal (both dysphoric and euphoric) between societies. This step was necessary in pursuing the exploration of potential population-level predictors of arousal. Using stepwise regression (hierarchical regression), the study identified ritual-level and society-level predictors of arousal such as frequency of ritual, duration of ritual, influence of classical religion, agricultural intensity, and presence of initiations \cite{atkinson2011}. Figure 1.4 displays these relationships - their coefficients and significance levels - and were taken directly from the 2011 paper to facilitate the readability and reportability of the results.\\
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.4.png} % Adjust the path to your PNG file
+		\caption{Correlation (Spearman's rho), p-values (left), and stepwise hierarchical regression predicting euphoric ritual arousal (top right) and dysphoric ritual arousal (bottom right) - as outlined in Whitehouse and Atkinson 2011.} 
+		\label{fig:table4}
+	\end{figure}
+	
+	\noindent Further studies exploring ritual morphology include Kapitány, Kavanagh, and Whitehouse’s 2020 paper entitled "Ritual morphospace revisited: the form, function and factor structure of ritual practice" \cite{kapitany2020}. Using unconstrained factor analysis and confirmatory factor analysis, the study found that dysphoric and euphoric ritual arousal factors confirmed theories such the DMR and others that focus specifically on dysphoric arousal and costly signals \cite{schjoedt2013}\cite{henrich2009}.
+	
+	\chapter{Preparing the Data}
+	\section{Description and origin of the data}
+	
+	The dataset I am using for this research project is the same as the one collected and analysed by Whitehouse and Atkinson \cite{atkinson2011} in their landmark paper to test the DMR theory. The dataset was extracted from the Probability Sample Files (PSF) within the Human Relations Area Files world cultures database (eHRAF), and was carefully curated to avoid non-independence issues. The dataset was sent to me by Harvey Whitehouse himself on the 5th of October, 2023.\\
+	\\
+	The eHRAF database is a vast repository of anthropological and ethnographic data on past and present cultures, designed as an exploratory platform for cultural researchers. It is organised by cultures, and is updated "by HRAF anthropologists with unique subject identifier codes from the Outline of Cultural Materials (OCM), making it ideal for both exploratory, in-depth cultural research, and cross-cultural comparisons" \cite{zotero-460}. The dataset used in this research project consists of an unbiased sampling of 82 randomly selected cultures - representing 81 distinct religions - constituting a sample representative of present societies of all continents of the world. The data itself consist of a wide range of religious ritual descriptions, religious ritual components (in the form of actions), religious ritual cultural characteristics, and information on the features and organisation of religious activities in each culture.
+	
+	\section{Structure of the data}
+	
+	The data is structured as rows (or individual ritual occurrences) within 82 unique traditional societies, spanning five continents. Each society has a minimum of one row, or specified coded religious ritual. In this investigation, I have chosen to omit 7 societies as a result of insufficient data in the dataset (composed mostly of missing values). As a result, 75 societies of 84 unique religious affiliations and 645 unique ritual occurrences have been preserved for the data cleaning process. The original dataset consists of 174 variables (continuous, nominal, binary, categorical, and ordinal) for each ritual occurrence. However, I have chosen to select the variables most suited to the questions I wished to address in this investigation. As a result, only 100 of the original 174 variables were conserved for the analysis. I have preserved all 81 binary variables coding the presence and absence ("1" and "0" respectively) of ritual components in a given ritual such as tattooing, vomiting, piercing, superficial wounding, instrument use, throwing of offerings in water, hallucinogenic plant use, smoking, possession, etc. Furthermore, I have chosen to preserve a mix of 19 ordinal, continuous, and categorical variables to act as ritual-level and society-level predictors of clustering differences within the data. All binary variables are displayed in Figure 2.1 and non-ritual component variables are displayed in Figure 2.2 for clarity.\\
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.5.png} % Adjust the path to your PNG file
+		\caption{Exhaustive list of ritual components.} 
+		\label{fig:table5}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.6.png} % Adjust the path to your PNG file
+		\caption{Exhaustive list of ritual-level and society-level components.} 
+		\label{fig:table6}
+	\end{figure}
+		
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.7.png} % Adjust the path to your PNG file
+		\caption{List of societies and religious traditions analysed.} 
+		\label{fig:table7}
+	\end{figure}
+	
+	\\
+	\noindent In the original dataset provided by Harvey Whitehouse, a description of each ritual occurrence and the source of the ethnographic work which allowed the collection of the data was provided in the original dataset. For the purpose of this investigation, all descriptions of the rituals were stripped from the dataset, but the original document and information on the variable coding method will be provided for the interested reader. Before describing the data cleaning process more extensively, I believe it important to list the 75 societies represented in the data to give an idea of the extensiveness and the richness of the ethnographic data used for this analysis (Figure 2.3).
+
+	
+	\section{Cleaning the data}
+	
+	To prepare my dataset for analysis, I employed a systematic approach to clean the raw data stored in an excel file by using Python’s pandas library. I used the pd.read\_excel() function to read the data from the specified file path, storing it in a pandas DataFrame denoted as data. This first step was necessary for all subsequent data cleaning operations. First, I addressed all missing values within the dataset by replacing all instances of NaN values with "0" using the fillna() method. This operation ensured uniformity in handling missing data. Next, I used the replace() method to substitute all occurrences of "-1" with "0". I chose to replace all occurrences of missing or non-collected data (such as "-1") by "0" to ensure uniformity before vectorising my data using cosine distances and subsequent transformation into a similarity matrix. I then proceeded to standardise date-like values present within the dataset by identifying all object data types. By using regular expressions, I replaced these date-like values with "1", seeing as all date-like values had a value of "1" in the original raw dataset. Addressing numerical data, I replaced all occurrences of "," with "." using a lambda function applied element-wise across the entire DataFrame. I also targeted the column titled "Under what circumstances is one recruited to the religious tradition?", after having identified values of "100:00:00" during the data cleaning process. As for the date-like values, I replaced all these values with "1" because these cells had a value of "1" in the original dataset. These formatting adjustments ensured consistency in all numerical representations. In addition to addressing these specific data formatting concerns, I opted to streamline the dataset by removing the column labelled "Details of named religious traditions.". This strategic decision aimed at decluttering the dataset - eliminating all redundant information - and focusing solely on pertinent variables essential for my research objectives. Concluding the data cleaning process, I saved the new, cleaned dataset to a new excel file by using the to\_excel() method. To complete the data preparation process, I renamed the "19th Century Yakut practice (Jochelson. Waldemar. 1885-1937 Kumiss festivals of the Yakut and the decoration of Kumiss vessels. 263)" religious tradition name to "19th Century Yakut practice" to ensure visualisation efficiency, and removed the "Society" column from the dataset to avoid object type errors in analysis after grouping the data by "Religious tradition". To improve readability, I have decided to provide the full data preparation code below. \\
+	
+	\begin{lstlisting}
+import pandas as pd
+		
+file_path = '/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Cleaned_Data/Updated_Cleaned_HRAF_Rituals_Dataset.xlsx'
+data = pd.read_excel(file_path)
+		
+# Replace all NaN values with '0'
+data_filled = data.fillna(0)
+# Replace all occurrences of -1 with 0
+data_replaced = data_filled.replace(-1, 0)
+# For replacing dates with '1', we first need to identify columns that could contain date values
+date_columns = data_replaced.select_dtypes(include=['object']).columns
+# Replace date-like values detected in these columns with '1'
+for col in date_columns:
+	data_replaced[col] = data_replaced[col].astype(str).str.replace(r'\d{4}-\d{2}-\d{2}', '1', regex=True)
+# Replace commas in numerical values with dots
+data_replaced = data_replaced.applymap(lambda x: str(x).replace(',', '.') if isinstance(x, str) else x)
+# Check the unique values and their types in my column "Under what circumstances is one recruited to the religious tradition?"
+column_name = "Under what circumstances is one recruited to the religious tradition?"
+unique_values = data_replaced[column_name].unique()
+# Convert all values in the column to numerical, and handling special cases
+data_replaced[column_name] = data_replaced[column_name].replace('1 00:00:00', '1').astype(float)
+# Removing "Details of named religious traditions" from the dataset
+data_replaced.drop(columns=["Details of named religious traditions"], inplace=True)
+		
+# Copying the cleaned data file to the new specified name
+new_filename = '/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Cleaned_Data/Cleaned_Data_HN_Master.xlsx'
+data_replaced.to_excel(new_filename, index=False)
+		
+# Removing the "Society" column from the dataset before grouping rows by "Religious tradition"
+data = data.drop(columns=['Society'])
+		
+# Renaming name of "Religious tradition" to avoid visualisation inefficiency. 
+specific_value = "19th Century Yakut practice (Jochelson. Waldemar. 1885-1937 Kumiss festivals of the Yakut and the decoration of Kumiss vessels. 263)"
+general_value = "19th Century Yakut practice"
+data['Religious tradition'] = data['Religious tradition'].replace(specific_value, general_value)
+data = data.replace(334, 3.34)
+	\end{lstlisting} 
+	
+	\chapter{Methodology and Results}
+	\section{Methodological choices for analysis}
+	
+	Since the objective of this investigation is to understand whether the categories produced by Whitehouse are replicable using a statistical framework, and to further understand and visualise the underlying structure of the data, I have chosen to aggregate all rows in my dataset by religious tradition using median values, and to represent these unique religious traditions as cosine distance vectors before transforming them into a cosine similarity matrix. I chose a cosine similarity matrix rather than a euclidean similarity matrix due to the relative unimportance of the magnitude in the data. Being more interested in the direction rather than the magnitude of the vectors, cosine distances were a more suitable choice, especially given the high-dimensional nature of my dataset. The output similarity matrix was then used for Principal Component Analysis (PCA). Below is a sample of the code for clarity in understanding the method used to prepare the data for analysis.\\
+	
+	\begin{lstlisting}
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.decomposition import PCA
+import numpy as np
+
+# Aggregating the data by 'Religious tradition' using the median
+data_aggregated = data.groupby('Religious tradition').median()
+
+# Computing my cosine similarity matrix from the aggregated data
+cosine_sim_matrix = cosine_similarity(data_aggregated)
+# Converting the cosine similarity matrix into a DataFrame for better readability
+cosine_sim_df = pd.DataFrame(cosine_sim_matrix, index=data_aggregated.index, columns=data_aggregated.index)
+
+# Initialize PCA with 6 principal components
+pca = PCA(n_components=6)
+# Fit PCA on my cosine similarity matrix
+pca.fit(cosine_sim_matrix)
+
+# Calculating the individual explained variance
+individual_explained_variance = pca.explained_variance_ratio_
+# Calculating the cumulative explained variance
+cumulative_explained_variance = np.cumsum(individual_explained_variance)
+\end{lstlisting}
+\vspace{0.5cm}
+\noindent This process was used for several reasons. Firstly, the dataset I was working with was inherently high-dimensional, with 100 ritual components, ritual-level, and society-level variables and 646 unique rituals, for a total of 64 500 data points. By utilising a similarity matrix, I aimed to address the dimensionality issue while preserving the information captured within the similarities among data points. Through applying PCA on the similarity matrix, I sought to distil the essential features of the dataset while mitigating the complexity associated with high-dimensional raw data, and uncover the latent patterns and associations among data points. This approach allowed me to delve deeper into the intrinsic connections between data points and extract valuable insights that might have been obscured within the raw data. Furthermore, I recognized the potential for noise within the similarity matrix, stemming from various sources such as measurement errors or irrelevant features. To address this challenge, I relied on PCA's ability to reduce and filter out the noise to extract the dominant patterns within the similarity structure. This step was crucial in ensuring the robustness and reliability of my analyses, particularly in the context of this large and complex dataset where noise can significantly impact the results. In addition to addressing dimensionality and noise concerns, the use of the similarity matrix for PCA conferred non-negligible computational advantages. Given the high dimensionality of the original data, performing PCA directly on raw data would have been more computationally intensive and potentially impractical (in this case, this computational efficiency is not easily apparent because of the relatively small dataset). That being said, I chose to run PCA on a similarity matrix so as to choose the most efficient computational outcome in the hope of analysing my dataset within reasonable timeframes. Secondly, the interpretability of the results was a key consideration in my decision-making process. I recognized that principal components derived from a similarity matrix might offer more straightforward interpretations compared to those obtained from raw data. By capturing relationships and similarities between data points, the principal components derived from the similarity matrix would provide insights into the underlying structure of the dataset that are intuitively understandable.\\
+\\
+Following the application of PCA, I chose to further the analysis by employing hierarchical clustering using the ward linkage method on the PCA results. I had first thought of using the k-means clustering method ; an effective clustering technique to uncover distinct clusters within the dataset based on their inherent similarities. However, hierarchical clustering, contrary to the k-means approach, does not require specifying the number of clusters and is more suited for dealing with non-euclidean distances. Hierarchical clustering is also useful because it allows for intuitive visualisation of the data in the form of dendrograms. Visualising my clusters as dendrograms rather than clusters of points also has another key advantage in that it ultimately allows me to manually set a cutoff distance in the branching. A cutoff distance of 5 within the linkage corresponds to a very broad grouping of religious traditions (producing 2 clusters). On the other hand, a cutoff of 1 corresponds to a highly granular grouping of religious traditions in the data (producing 18 clusters). Using this method, I was easily able to tune the granularity of the clustering for subsequent statistical testing. I’ve outlined the code for clarity in understanding the method used to prepare the data for analysis. However, manually setting the cutoff distance can be quite subjective. Therefore, I used the Elbow method to find the optimal number of clusters, and calculated silhouette scores for each cluster formation configuration (see Figure 2.4). Based on these results, I was able to identify the optimal number of clusters to include in PCA and further analysis (3 or 4 clusters).\\
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.8.png} % Adjust the path to your PNG file
+	\caption{Elbow method and silhouette score results.} 
+	\label{fig:table8}
+\end{figure}
+
+	\begin{lstlisting}
+from scipy.cluster.hierarchy import dendrogram, linkage
+from scipy.cluster.hierarchy import fcluster
+
+# Transforming data using the selected number of PCA components
+pca_transformed = pca.transform(cosine_sim_matrix)
+
+# Performing hierarchical clustering using the 'ward' linkage method
+linked = linkage(pca_transformed, method='ward')
+# Setting cutoff distance
+cutoff_distance = 3
+# Assigning cluster labels based on chosen cutoff distance
+cluster_labels = fcluster(linked, cutoff_distance, criterion='distance')
+# Appendding the cluster labels
+data_aggregated['Cluster'] = cluster_labels
+# Checking how many clusters were formed from the cutoff
+unique_clusters = np.unique(cluster_labels)
+print("Number of clusters formed:", unique_clusters.size)
+
+# Adding cluster labels to the labels in the dendrogram
+labels_with_clusters = [f"{label} (Cluster {cluster})" for label, cluster in zip(data_aggregated.index, cluster_labels)]
+\end{lstlisting}
+\vspace{0.5cm}
+\noindent Next, I chose to conduct a one-way analysis of variance (ANOVA) on the resulting clusters and all ritual and society-level predictor variables (e.g. "Degree of hierarchy in religious roles" and "Influence of classical 'world' religions"). I chose this method because ANOVA is a robust statistical technique that compares the variation between multiple groups, making it suitable for exploring differences in the target variables across the distinct clusters identified via hierarchical clustering. However, understanding whether there are global significant differences between clusters with regards to ritual-level and society-level predictor variables is not sufficient. What I am truly interested in is understanding how each pair of clusters differ from one another, and how much they differ. To reveal the underlying significant differences between pairs of clusters, I used a Tukey Honestly Significant Difference test (Tukey-HSD) to extract the significance values (p-adj values) for each pair of clusters along all predictor variables. To visualise these differences between clusters, I chose to create a heatmap of cluster pair p-values for each predictor variable. To recapitulate the methodological processes involved in setting up this project, I’ve created the following rudimentary visualisation in the form of a flowchart (Figure 3.2). 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.9.png} % Adjust the path to your PNG file
+	\caption{Recapitulation of the processes for the realisation of this project.} 
+	\label{fig:table9}
+\end{figure}
+
+	\section{Results}
+	
+	The analyses chosen for this research project yielded interesting and encouraging results. Firstly the cosine similarity matrix transformation (sample in Figure 3.3) allowed the formation of analysis appropriate components.  As a rule of thumb, a cumulative explained variance of 70\% or above is recommended, so I analysed the cumulative explained variance of the PCA output. After analysis, the sum of the explained variance of the first 3 components were sufficient (76\%) to conduct further analysis (see Figure 3.4). However, in my wish to capture as much of the variance in the data as possible before applying hierarchical clustering using the ward linkage method, I opted to include the first 6 principal components (94\% of cumulative variance explained) in all subsequent testing (with 99\% of cumulative variance explained at 9 components).
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.10.png} % Adjust the path to your PNG file
+		\caption{Sample of the religious traditions cosine similarity matrix produced.} 
+		\label{fig:table10}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.11.png} % Adjust the path to your PNG file
+		\caption{Detail of individual explained variance for each component after PCA.} 
+		\label{fig:table11}
+	\end{figure}
+	
+	\noindent PCA loadings of the 84 grouped religious traditions yielded insights across six principal components (summary statistics Figure 3.5, and PCA loadings sample Figure 3.6). The mean loadings for most components are negative, with PC1 at -0.0737, PC2 at -0.0646, PC3 at -0.0020, and PC4 at -0.0455, while PC5 and PC6 are slightly positive at 0.0080 and 0.0031, respectively. Standard deviations indicate significant variability, especially in PC3 (0.1097) and PC5 (0.1095), suggesting that these components capture the most variation. The range of loadings is widest for PC3 and PC5, which further highlights their importance. Religious traditions with the highest loadings are the "Church of Scotland (Presbyterian)" for PC1 (0.1477), "Lozi religion" for PC2 (0.1687), "Folk or popular religion" for PC3 (0.2630), "Mbuti religion" for PC4 (0.1225), "Tlingit religion" for PC5 (0.3503), and "Kuna religion" for PC6 (0.2646). Conversely, the lowest loadings are seen in the Maasai religion for PC1 (-0.2159), Cult of Angels for PC2 (-0.2606), Christian tradition for PC3 (-0.2563), Serbian Orthodox Church for PC4 (-0.2644), Folk Religion for PC5 (-0.2513), and Jivaro Religion for PC6 (-0.2307).\\
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.12.png} % Adjust the path to your PNG file
+		\caption{Summary statistics for each principal component.} 
+		\label{fig:table12}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.13.png} % Adjust the path to your PNG file
+		\caption{Sample of principal component loadings per religious tradition.} 
+		\label{fig:table13}
+	\end{figure}
+	
+	\noindent Hierarchical clustering analysis of the principal components at a cutoff distance of 3 yielded 3 distinct groups of religious traditions (Figure 3.7). Corroborating the PCA results, high loadings for institutionalised religions (e.g. "Roman Catholic", "Serbian Orthodox Church", "Islam", "Buddhism", Church of Scotland (Presbyterian)", etc.) contrast with low loadings for indigenous traditions (e.g. "Maasai religion"). This separation is evident in the clustering where institutionalised religions all group within a distinct cluster - cluster 1. As demonstrated in the loading data, traditions with high PC2 loadings (e.g. "Lozi religion"), high PC3 loadings (e.g. "Folk or popular religion"), and high PC4 loadings (e.g. "Mbuti religion") are distributed across clusters, indicating that these components capture variability within and between clusters. With high loadings scores in PC5, the "Tlingit religion" was grouped within cluster 2, which includes similar traditional small-scale religions. This suggests that PC5 significantly contributes to the distinction of this cluster. In PC6, high loadings for "Kuna religion" also place it within cluster 2, which further reinforces the pattern of indigenous and animistic traditions clustering together. The religious tradition grouping distinction between cluster 1 and cluster 2 and 3 are relatively intuitive. However, the reasons behind the split of clusters 2 and 3 is more opaque. As expressed through the components obtained through PCA (41\% variance), PC1 has all the traits of cluster 1, where all classical religions ("doctrinal mode") are grouped together. Inversely, PC2, PC3, and PC4, with low loadings scores for classical religions and a cumulative explained variance of 40\%, represent traditional religions ("imagistic mode").\\
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.14.png} % Adjust the path to your PNG file
+		\caption{Dendrogram of the hierarchical clustering analysis at cutoff distance of 3.} 
+		\label{fig:table14}
+	\end{figure}
+	
+\noindent PC5 and PC6 account for smaller variance values in the model (11\%), but these share a mix of low negative, low positive,  and neutral loadings for both traditional religious and classical religions. These principal components represent the section of the modes of religiosity spectrum where doctrinal and imagistic modes share common ritual-level and society-level characteristics like high peak arousal moments \cite{richman2018}. To understand the global ritual-level and society-level significant differences between clusters, I performed ANOVA across a set of predictor variables. The results on the ANOVA include F-statistics and p-values for each predictor variable, which indicate the significance of differences between clusters (Figure 3.8).\\
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.15.png} % Adjust the path to your PNG file
+		\caption{ANOVA results across ritual-level and society-level predictor variables.} 
+		\label{fig:table15}
+	\end{figure}
+	
+\noindent Variables with substantial F-statistics and low p-values include the intensity of peak euphoric and dysphoric arousal, reported euphoric and dysphoric arousal over course of the ritual, recruitment circumstances, proselytising individuals, the scale of shared religious ideas, the population size sharing these beliefs, the perception of religious leaders, the degree of hierarchical roles, the influence of classical 'world' religions, and participation frequency. These variables greatly contribute to the differentiation of clusters. Non-significant predictors include the distribution and acquisition mode of exegesis, mixed traditions, divine authority of leaders, end of traditional religion identification, and ritual duration. The results corroborate the DMR theory, in that variations in emotional arousal, both euphoric and dysphoric, accurately predict the separation of religious traditions into different groups. Interestingly, the results also allow us to build upon DMR theory, because they shed light into the multitude of ritual-level and society-level factors contributing to distinguishing religious traditions into quantifiable categories. These factors allow us to formulate a relatively effective mapping of how religion is created and deployed in the human world. It allows us to bring to light a quantitatively valid way of understanding the spectrum of human religious phenomena at the ritual-level (collection of actions performed), at the population-level (scale of religious tradition), at the society-level (structure of religious hierarchies), and at the synergetic-level (influence and interaction between different religious traditions). Although these categories exist, they are not written in stone since the methodological approach employed in the preparation of the data and in the choice of analyses naturally leads to variations in categorisation.\\
+\\
+To further elucidate the significant differences between each cluster pair across the predictor variables, I ran a Tukey’s-HSD test and created a heatmap of p-adj values of cluster pairs for each variable (Figure 3.9).\\
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.16.png} % Adjust the path to your PNG file
+	\caption{Heatmap of cluster pair p-adj values across predictor variables (3 clusters).} 
+	\label{fig:table16}
+\end{figure}
+
+\noindent The heatmap gives further insights into cluster differences. Notably, it has allowed us to determine that more differences exist between cluster 1 and 2 and between cluster 1 and 3 than there are differences between clusters 2 and 3. This means that the clusters 2 and 3 could benefit from more granular clustering to better identify more subtle differences between groups of religious traditions. We can also observe that there are significant differences in emotional arousal, both euphoric and dysphoric, between groups 2 and 3. However, the peak intensity of the euphoric arousal moment is not significantly different between clusters 2 and 3. This means that higher values of average emotional arousal for the duration of the ritual, and peak dysphoric arousal moment are expected in cluster 3 than in cluster 2. The degree of religious hierarchy in group 2 and also is also expected to be much greater than in group 3. Therefore, there seems to be a direct inverse relationship between average emotional arousal and the degree of hierarchy between clusters. Other notable interactions exist, but will be discussed at length in my master’s 2 research project. Before concluding on this preliminary round of results, it is also interesting to note that by decreasing the cutoff distance in the hierarchical clustering analysis (e.g 1.8), we are able to increase the number of clusters, leading to a more granular distinction of religious traditions. However, increasing the complexity of clustering decreases our ability to straightforwardly interpret what distinguishes groups (Figure 3.10). Due to space and time constraints, I’ve decided to delve into more granular clusterization and heatmap results (Figure 3.11) in my master’s 2 research project.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.17.png} % Adjust the path to your PNG file
+	\caption{Hierarchical clustering dendrogram at a cutoff distance of 1.8 (9 clusters).} 
+	\label{fig:table17}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/Tables_HN_Masters/Figure_1.18.png} % Adjust the path to your PNG file
+	\caption{Heatmap of cluster pair p-adj values across predictor variables (9 clusters).} 
+	\label{fig:table18}
+\end{figure}
+
+
+	\chapter{Further analysis}
+	\section{Machine learning algorithms}
+	
+	To expand on the results thus far identified in this research project, the use of specific machine learning algorithms could be of great utility for predicting which ritual actions are most likely to be performed if we are only given knowledge of the socio-religious organisation of a specific society. In addition, machine learning models could further help in identifying which predictor variables are most important in determining the overall shape of religious clusters. With this in mind, two distinct approaches could be explored, each with a specific set of advantages and disadvantages : supervised learning, and unsupervised learning \cite{goldberg2018}.\\
+	\\
+	Supervised learning uses labelled data to train models, which makes it ideal for predicting known outcomes like cluster membership or predicting the presence of specific ritual components when the degree in hierarchical roles is high or low in various religious traditions \cite{gao2018}. For example, algorithms like "Random Forests'' \cite{shi2006}\cite{muchlinski2016} and "Gradient Boosting" \cite{buhlmann2006} handle high-dimensional data and model complex interactions between variables. Random forests reduce modelling errors such as overfitting. On the other hand, gradient boosting builds a sequential series of decision trees (weak learners) to improve prediction performance. By and large, these methods could be extremely useful to identify which factors are most influential (importance scoring of each variable) in distinguishing different religious traditions and ritual components. Another method which could be helpful is "Support Vector Machines" (SVM), which is used for classification tasks. This technique could help me construct precise classifications of my clusters \cite{hefner2014}\cite{yuadi2021}. Contrary to supervised learning, unsupervised learning identifies patterns within the data without the use of labelled outcomes. Unsupervised learning is therefore highly efficient at exploring data unconstrained. A common algorithm like "Density-Based Spatial Clustering of Applications with Noise", or DBSCAN, does not need a predefined number of clusters and can identify smaller, more densely packed clusters to uncover subtle differences in my religious traditions groupings \cite{malkic2013}\cite{ramazzotti2018}\cite{schwenker2012}.\\
+	\\
+	Which machine learning methods are to be incorporated into my master’s 2 research project remains to be decided, but I would ideally like to incorporate a supervised method and an unsupervised method so as to test both approaches. Combining both approaches will help me gain further insight into the religious traditions clustering and will test approaches which have never been tested in the context of DMR theory, nor in the context of research into the evolution and structure of religions. Using both approaches in a single study would provide complementary results, and help me identify the best path forward in my efforts to plan and execute further research inquiries. 
+	
+	\chapter*{Conclusion}
+	\addcontentsline{toc}{chapter}{Conclusion}
+	In this short, but hopefully comprehensive research project, I aimed to build upon the foundational work of Whitehouse  \cite{whitehouse2004modes} and Whitehouse and Atkinson \cite{atkinson2011} by furthering our understanding of DMR theory. I aimed not only to replicate their findings but also to extend them through the use of advanced statistical methods and visualisation techniques. One of the primary contributions of my work is the detailed mention of the entire data cleaning and preparation process using Python’s pandas library. This ensured a high level of data consistency and addressed the importance of providing more transparency in the data handling of complex cross-cultural research, which is often altogether lacking from research papers.\\
+	\\
+	The use of a cosine similarity matrix, PCA, and hierarchical clustering analysis (ward linkage method) distinguishes my methodological approach from Whitehouse and Atkinson’s 2011 paper \cite{atkinson2011}. I was notably able to manage the high-dimensionality of my dataset effectively, which revealed underlying groupings of religious traditions. By capturing the directionality of data points rather than their magnitude, the cosine similarity approach provided a more coherent representation of the relationships between different religious traditions. The principal components explained a substantial portion of the variance (94\%), and hierarchical clustering with the ward linkage method offered an intuitive way to group religious traditions. The method's ability to visualise clusters through dendrograms and adjust the granularity of clustering without presetting the number of clusters proved efficient (although it is important to note that the dendrograms do not imply any phylogenic relationships). I was able to show how different traditions relate to one another across the spectrum of doctrinal and imagistic modes, something that binary classifications of ritual-level and society-level data alone could not achieve. To my knowledge, the approach of setting cut-off distances to produce different levels of granularity in groups of religious traditions is completely novel in the study of religious morphology. Through statistical validation using one-way ANOVA and Tukey's HSD tests, I compared clusters across various predictor variables, and identified significant differences in the factors driving distinctions between religious tradition groups. This provided empirical support for the DMR theory, and goes beyond the initial findings by expanding the theoretical framework to incorporate a broader range of predictor variables. Lastly, the use of heatmaps to visualise Tukey’s HSD p-adj values was another key contribution of my research. These tools allowed for an intuitive comparison of pairwise differences between clusters. This enabled a novel way of viewing the strength of the significant differences between clusters across a vast range of ritual-level and society-level predictor variables. Visualisation is an important aspect of data analysis, which makes the results accessible and more interpretable. Unfortunately, advanced visualisation is oftentimes missing from journal articles, so much of the time spent on this research project was dedicated to producing explicit and intuitive visual representations of the findings rather than to write out the statistical results in numerical form.\\
+	\\
+	To conclude, I believe this research project brings a fresh perspective to the study of the formation of religious traditions, and provides insights into the cultural mechanisms that differentiate them. By building on the work of Whitehouse and Atkinson \cite{atkinson2011}, I aspire to continue exploring the dataset using machine learning models and to publish my findings in the near future.
+	
+	\addcontentsline{toc}{chapter}{Bibliography}
+	\nocite{*}
+	\printbibliography
+	
+
+	\appendix
+	\listoffigures
+	
+\end{document}
