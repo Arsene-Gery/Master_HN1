@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MASTER_HN1_MASTER.blg'
-[64] biber-darwin:340> INFO - === Wed May 22, 2024, 11:12:59
-[77] Biber.pm:419> INFO - Reading 'MASTER_HN1_MASTER.bcf'
-[172] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[185] Biber.pm:4419> INFO - Processing section 0
-[195] Biber.pm:4610> INFO - Looking for bibtex file '/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/TEX/bibliography.bib' for section 0
-[199] bibtex.pm:1713> INFO - LaTeX decoding ...
-[277] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/TEX/bibliography.bib'
-[643] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[643] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[643] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[643] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[691] bbl.pm:660> INFO - Writing 'MASTER_HN1_MASTER.bbl' with encoding 'UTF-8'
-[718] bbl.pm:763> INFO - Output to MASTER_HN1_MASTER.bbl
+[66] biber-darwin:340> INFO - === Fri May 24, 2024, 16:51:30
+[79] Biber.pm:419> INFO - Reading 'MASTER_HN1_MASTER.bcf'
+[165] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[178] Biber.pm:4419> INFO - Processing section 0
+[187] Biber.pm:4610> INFO - Looking for bibtex file '/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/TEX/bibliography.bib' for section 0
+[191] bibtex.pm:1713> INFO - LaTeX decoding ...
+[266] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/arsenegery/Desktop/Cleaned_Data_Ritual_M1/TEX/bibliography.bib'
+[627] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[628] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[628] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[628] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[681] bbl.pm:660> INFO - Writing 'MASTER_HN1_MASTER.bbl' with encoding 'UTF-8'
+[713] bbl.pm:763> INFO - Output to MASTER_HN1_MASTER.bbl
