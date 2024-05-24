@@ -1,0 +1,2730 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{atkinson2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=327088ec1755cff92ca3bac4f63a1f80}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={Quentin\bibnamedelima D.},
+           giveni={Q\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7db48f692efa8e6285a27ad2728a4a62}
+      \strng{fullhash}{7db48f692efa8e6285a27ad2728a4a62}
+      \strng{bibnamehash}{7db48f692efa8e6285a27ad2728a4a62}
+      \strng{authorbibnamehash}{7db48f692efa8e6285a27ad2728a4a62}
+      \strng{authornamehash}{7db48f692efa8e6285a27ad2728a4a62}
+      \strng{authorfullhash}{7db48f692efa8e6285a27ad2728a4a62}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{journaltitle}{Evolution and Human Behavior}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Evolution and Human Behavior}
+      \field{shorttitle}{The cultural morphospace of ritual form}
+      \field{title}{The cultural morphospace of ritual form: Examining modes of religiosity cross-culturally}
+      \field{volume}{32}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{50\bibrangedash 62}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.evolhumbehav.2010.09.002
+      \endverb
+      \verb{file}
+      \verb Atkinson and Whitehouse - 2011 - The cultural morphospace of ritual form Examining.pdf:/Users/arsenegery/Zotero/storage/A7GRF2XK/Atkinson and Whitehouse - 2011 - The cultural morphospace of ritual form Examining.pdf:application/pdf;ScienceDirect Snapshot:/Users/arsenegery/Zotero/storage/HZL4X75G/S1090513810001029.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1090513810001029
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1090513810001029
+      \endverb
+      \keyw{Religion,Agriculture,Costly signalling,Cultural evolution,Human Relations Area Files,Modes of religiosity,Ritual}
+    \endentry
+    \entry{barth1990}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9e3b8d42ae1816551a730fa069b557f4}{%
+           family={Barth},
+           familyi={B\bibinitperiod},
+           given={Fredrik},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e3b8d42ae1816551a730fa069b557f4}
+      \strng{fullhash}{9e3b8d42ae1816551a730fa069b557f4}
+      \strng{bibnamehash}{9e3b8d42ae1816551a730fa069b557f4}
+      \strng{authorbibnamehash}{9e3b8d42ae1816551a730fa069b557f4}
+      \strng{authornamehash}{9e3b8d42ae1816551a730fa069b557f4}
+      \strng{authorfullhash}{9e3b8d42ae1816551a730fa069b557f4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Man}
+      \field{note}{Publisher: [Wiley, Royal Anthropological Institute of Great Britain and Ireland]}
+      \field{number}{4}
+      \field{shorttitle}{The Guru and the Conjurer}
+      \field{title}{The Guru and the Conjurer: Transactions in Knowledge and the Shaping of Culture in Southeast Asia and Melanesia}
+      \field{volume}{25}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{640\bibrangedash 653}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.2307/2803658
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/GE3QEHPV/Barth - 1990 - The Guru and the Conjurer Transactions in Knowled.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2803658
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2803658
+      \endverb
+    \endentry
+    \entry{bloch2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=26d7b530dbe612ea2d7718a3dac6912e}{%
+           family={Bloch},
+           familyi={B\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{fullhash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{bibnamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authorbibnamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authornamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authorfullhash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions: Biological Sciences}
+      \field{note}{Publisher: The Royal Society}
+      \field{number}{1499}
+      \field{title}{Why Religion Is Nothing Special but Is Central}
+      \field{volume}{363}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{2055\bibrangedash 2061}
+      \range{pages}{7}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/WK9C6H6G/Bloch - 2008 - Why Religion Is Nothing Special but Is Central.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/20208610
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/20208610
+      \endverb
+    \endentry
+    \entry{boyer1993cognitive}{book}{}
+      \name{author}{1}{}{%
+        {{hash=03160a5e948c51167cff9c2b696f774d}{%
+           family={Boyer},
+           familyi={B\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CUP Archive}%
+      }
+      \strng{namehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{fullhash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{bibnamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authorbibnamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authornamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authorfullhash}{03160a5e948c51167cff9c2b696f774d}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cognitive aspects of religious symbolism}
+      \field{year}{1993}
+    \endentry
+    \entry{boyer2007religion}{book}{}
+      \name{author}{1}{}{%
+        {{hash=03160a5e948c51167cff9c2b696f774d}{%
+           family={Boyer},
+           familyi={B\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hachette UK}%
+      }
+      \strng{namehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{fullhash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{bibnamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authorbibnamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authornamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authorfullhash}{03160a5e948c51167cff9c2b696f774d}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Religion explained: The evolutionary origins of religious thought}
+      \field{year}{2007}
+    \endentry
+    \entry{boyer2023naturalness}{book}{}
+      \name{author}{1}{}{%
+        {{hash=03160a5e948c51167cff9c2b696f774d}{%
+           family={Boyer},
+           familyi={B\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Univ of California Press}%
+      }
+      \strng{namehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{fullhash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{bibnamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authorbibnamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authornamehash}{03160a5e948c51167cff9c2b696f774d}
+      \strng{authorfullhash}{03160a5e948c51167cff9c2b696f774d}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The naturalness of religious ideas: A cognitive theory of religion}
+      \field{year}{2023}
+    \endentry
+    \entry{buhlmann2006}{article}{}
+      \name{author}{1}{}{%
+        {{hash=73b8ae79083852e052f5bd5f82021408}{%
+           family={Bühlmann},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{73b8ae79083852e052f5bd5f82021408}
+      \strng{fullhash}{73b8ae79083852e052f5bd5f82021408}
+      \strng{bibnamehash}{73b8ae79083852e052f5bd5f82021408}
+      \strng{authorbibnamehash}{73b8ae79083852e052f5bd5f82021408}
+      \strng{authornamehash}{73b8ae79083852e052f5bd5f82021408}
+      \strng{authorfullhash}{73b8ae79083852e052f5bd5f82021408}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annals of Statistics}
+      \field{note}{Publisher: Institute of Mathematical Statistics}
+      \field{number}{2}
+      \field{title}{Boosting for High-Dimensional Linear Models}
+      \field{volume}{34}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{559\bibrangedash 583}
+      \range{pages}{25}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/VNZMUCEN/Bühlmann - 2006 - Boosting for High-Dimensional Linear Models.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/25463430
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/25463430
+      \endverb
+    \endentry
+    \entry{zotero-460}{online}{}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{title}{{eHRAF} World Cultures}
+      \verb{file}
+      \verb eHRAF World Cultures:/Users/arsenegery/Zotero/storage/JJT65W23/ehrafworldcultures.yale.edu.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ehrafworldcultures.yale.edu/
+      \endverb
+      \verb{url}
+      \verb https://ehrafworldcultures.yale.edu/
+      \endverb
+    \endentry
+    \entry{eliade2024shamanism}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f3f4a77ab395e2c9154d129efa2c55ce}{%
+           family={Eliade},
+           familyi={E\bibinitperiod},
+           given={Mircea},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{fullhash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{bibnamehash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{authorbibnamehash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{authornamehash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{authorfullhash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Shamanism: Archaic techniques of ecstasy}
+      \field{year}{2024}
+    \endentry
+    \entry{eliade1959sacred}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f3f4a77ab395e2c9154d129efa2c55ce}{%
+           family={Eliade},
+           familyi={E\bibinitperiod},
+           given={Mircea},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Houghton Mifflin Harcourt}%
+      }
+      \strng{namehash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{fullhash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{bibnamehash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{authorbibnamehash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{authornamehash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \strng{authorfullhash}{f3f4a77ab395e2c9154d129efa2c55ce}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The sacred and the profane: The nature of religion}
+      \field{volume}{81}
+      \field{year}{1959}
+    \endentry
+    \entry{fischer1973cartography}{article}{}
+      \name{author}{1}{}{%
+        {{hash=69eb2c2e477f8c525a82f735996fad2c}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{69eb2c2e477f8c525a82f735996fad2c}
+      \strng{fullhash}{69eb2c2e477f8c525a82f735996fad2c}
+      \strng{bibnamehash}{69eb2c2e477f8c525a82f735996fad2c}
+      \strng{authorbibnamehash}{69eb2c2e477f8c525a82f735996fad2c}
+      \strng{authornamehash}{69eb2c2e477f8c525a82f735996fad2c}
+      \strng{authorfullhash}{69eb2c2e477f8c525a82f735996fad2c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Leonardo}
+      \field{number}{1}
+      \field{title}{A cartography of the ecstatic and meditative states}
+      \field{volume}{6}
+      \field{year}{1973}
+      \field{pages}{59\bibrangedash 66}
+      \range{pages}{8}
+    \endentry
+    \entry{gao2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b01fee113188ce022d86a743ce6c6ddc}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Hongjuan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b217194b742454fe41351a070f2488a5}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Guohua},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9c245130418606dd988ed12a97044d62}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Wen},
+           giveni={W\bibinitperiod}}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=f038fc3f3b28c2bf9e94a1e2cb3d7ed6}{%
+           family={Maex},
+           familyi={M\bibinitperiod},
+           given={Reinoud},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{56179d48068ced75ae0e0414ac23a8d1}
+      \strng{fullhash}{56179d48068ced75ae0e0414ac23a8d1}
+      \strng{bibnamehash}{56179d48068ced75ae0e0414ac23a8d1}
+      \strng{authorbibnamehash}{56179d48068ced75ae0e0414ac23a8d1}
+      \strng{authornamehash}{56179d48068ced75ae0e0414ac23a8d1}
+      \strng{authorfullhash}{56179d48068ced75ae0e0414ac23a8d1}
+      \strng{editorabibnamehash}{f038fc3f3b28c2bf9e94a1e2cb3d7ed6}
+      \strng{editoranamehash}{f038fc3f3b28c2bf9e94a1e2cb3d7ed6}
+      \strng{editorafullhash}{f038fc3f3b28c2bf9e94a1e2cb3d7ed6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{journaltitle}{Computational and mathematical methods in medicine}
+      \field{note}{Place: United States Publisher: Hindawi}
+      \field{title}{Sex Determination of 3D Skull Based on a Novel Unsupervised Learning Method}
+      \field{volume}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{4567267\bibrangedash 10}
+      \range{pages}{-49}
+      \verb{doi}
+      \verb 10.1155/2018/4567267
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/arsenegery/Zotero/storage/W3NQQMWJ/Gao et al. - 2018 - Sex Determination of 3D Skull Based on a Novel Uns.pdf:application/pdf
+      \endverb
+      \keyw{Adolescent,Adult,Aged,China,Female,Forensic Anthropology,Humans,Imaging,Three-Dimensional,Male,Middle Aged,Sex Determination by Skeleton,Skull - anatomy \& histology,Skull - diagnostic imaging,Unsupervised Machine Learning,Young Adult}
+    \endentry
+    \entry{goldberg2018}{report}{}
+      \name{author}{5}{}{%
+        {{hash=5ba09ab3dcdd34e7e791093e8c7a4771}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Matthew\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e4a5522bc6cd435436dd069ac3afb315}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c99b9d8a97b0c1b50dc50c4e0b12eaa1}{%
+           family={Huff},
+           familyi={H\bibinitperiod},
+           given={Nancy\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f76dddd33faf8d019e2a43b8c2d0effa}{%
+           family={Kimko},
+           familyi={K\bibinitperiod},
+           given={Dennis\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a0a124e739fce8405d9437a40c43c337}{%
+           family={Saizan},
+           familyi={S\bibinitperiod},
+           given={Alexandra\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Institute for Defense Analyses}%
+      }
+      \strng{namehash}{42928cfb39d179642a4fe18df7cc3519}
+      \strng{fullhash}{a44d624b0401e60984ca03c88ed45638}
+      \strng{bibnamehash}{42928cfb39d179642a4fe18df7cc3519}
+      \strng{authorbibnamehash}{42928cfb39d179642a4fe18df7cc3519}
+      \strng{authornamehash}{42928cfb39d179642a4fe18df7cc3519}
+      \strng{authorfullhash}{a44d624b0401e60984ca03c88ed45638}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning Approach}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{29\bibrangedash 32}
+      \range{pages}{4}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/7D2ITTSS/Goldberg et al. - 2018 - Machine Learning Approach.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/resrep22894.7
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/resrep22894.7
+      \endverb
+    \endentry
+    \entry{graf1985}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4d9339f9474d30568346ac229fb476a2}{%
+           family={Graf},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f1544b4d236097574fcb99137d5cbc1a}{%
+           family={Schacter},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{398e09bd725db04a93582099c5950416}
+      \strng{fullhash}{398e09bd725db04a93582099c5950416}
+      \strng{bibnamehash}{398e09bd725db04a93582099c5950416}
+      \strng{authorbibnamehash}{398e09bd725db04a93582099c5950416}
+      \strng{authornamehash}{398e09bd725db04a93582099c5950416}
+      \strng{authorfullhash}{398e09bd725db04a93582099c5950416}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology. Learning, Memory, and Cognition}
+      \field{month}{7}
+      \field{number}{3}
+      \field{shortjournal}{J Exp Psychol Learn Mem Cogn}
+      \field{title}{Implicit and explicit memory for new associations in normal and amnesic subjects}
+      \field{volume}{11}
+      \field{year}{1985}
+      \field{dateera}{ce}
+      \field{pages}{501\bibrangedash 518}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1037//0278-7393.11.3.501
+      \endverb
+      \keyw{Adult,Aged,Female,Humans,Male,Middle Aged,Amnesia,Association,Memory,Retention,Psychology}
+    \endentry
+    \entry{griffiths2006}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8954ba1d2f86a02a04dd8fb4ec068b0d}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=83261ec385338c167c614138666ef553}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={W.\bibnamedelimi A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e4f608a25f1ca1bd3cc9da2e29cca4d4}{%
+           family={{McCann}},
+           familyi={M\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=47af88f3f377e6ac6124b2a2f46148c6}{%
+           family={Jesse},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b6bebce7590381e2442aad4220c6aeb}
+      \strng{fullhash}{2469f4e4aad7d042947f865d17fc4b37}
+      \strng{bibnamehash}{8b6bebce7590381e2442aad4220c6aeb}
+      \strng{authorbibnamehash}{8b6bebce7590381e2442aad4220c6aeb}
+      \strng{authornamehash}{8b6bebce7590381e2442aad4220c6aeb}
+      \strng{authorfullhash}{2469f4e4aad7d042947f865d17fc4b37}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychopharmacology}
+      \field{month}{8}
+      \field{number}{3}
+      \field{shortjournal}{Psychopharmacology (Berl)}
+      \field{title}{Psilocybin can occasion mystical-type experiences having substantial and sustained personal meaning and spiritual significance}
+      \field{volume}{187}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{268\bibrangedash 283\bibrangessep discussion 284\bibrangedash 292}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1007/s00213-006-0457-5
+      \endverb
+      \keyw{Adult,Female,Humans,Male,Affect,Blood Pressure,Cross-Over Studies,Double-Blind Method,Hallucinogens,Heart Rate,Lysergic Acid Diethylamide,Psilocybin,Spirituality,Substance-Related Disorders,Surveys and Questionnaires}
+    \endentry
+    \entry{havens1964}{article}{}
+      \name{author}{1}{}{%
+        {{hash=09592c8e1912f9c0df55f8b4101bb3be}{%
+           family={Havens},
+           familyi={H\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{09592c8e1912f9c0df55f8b4101bb3be}
+      \strng{fullhash}{09592c8e1912f9c0df55f8b4101bb3be}
+      \strng{bibnamehash}{09592c8e1912f9c0df55f8b4101bb3be}
+      \strng{authorbibnamehash}{09592c8e1912f9c0df55f8b4101bb3be}
+      \strng{authornamehash}{09592c8e1912f9c0df55f8b4101bb3be}
+      \strng{authorfullhash}{09592c8e1912f9c0df55f8b4101bb3be}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal for the Scientific Study of Religion}
+      \field{note}{Publisher: [Society for the Scientific Study of Religion, Wiley]}
+      \field{number}{2}
+      \field{shorttitle}{A Working Paper}
+      \field{title}{A Working Paper: Memo on the Religious Implications of the Consciousness-Changing Drugs ({LSD}, Mescalin, Psilocybin)}
+      \field{volume}{3}
+      \field{year}{1964}
+      \field{dateera}{ce}
+      \field{pages}{216\bibrangedash 226}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.2307/1384511
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/2EDYQKP3/Havens - 1964 - A Working Paper Memo on the Religious Implication.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/1384511
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/1384511
+      \endverb
+    \endentry
+    \entry{hefner2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cae5450b8d625db2921b704e75d3df0f}{%
+           family={Hefner},
+           familyi={H\bibinitperiod},
+           given={Joseph\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=7ab372290f9ca3d8c12b717058a02068}{%
+           family={Ousley},
+           familyi={O\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bae5fcc856fa665b6e68cc3dc764031}
+      \strng{fullhash}{4bae5fcc856fa665b6e68cc3dc764031}
+      \strng{bibnamehash}{4bae5fcc856fa665b6e68cc3dc764031}
+      \strng{authorbibnamehash}{4bae5fcc856fa665b6e68cc3dc764031}
+      \strng{authornamehash}{4bae5fcc856fa665b6e68cc3dc764031}
+      \strng{authorfullhash}{4bae5fcc856fa665b6e68cc3dc764031}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of forensic sciences}
+      \field{note}{Place: United States Publisher: Blackwell Publishing Ltd}
+      \field{number}{4}
+      \field{title}{Statistical Classification Methods for Estimating Ancestry Using Morphoscopic Traits}
+      \field{volume}{59}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{883\bibrangedash 890}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/1556-4029.12421
+      \endverb
+      \verb{urlraw}
+      \verb https://api.istex.fr/ark:/67375/WNG-G188Q31P-T/fulltext.pdf
+      \endverb
+      \verb{url}
+      \verb https://api.istex.fr/ark:/67375/WNG-G188Q31P-T/fulltext.pdf
+      \endverb
+      \keyw{Adolescent,Adult,Aged,Female,Humans,Male,Middle Aged,Skull - anatomy \& histology,Young Adult,Aged,80 and over,Ancestry,Classification,Classification statistics,Continental Population Groups,Forensic anthropology,Forensic Anthropology - methods,Forensic science,Forensic sciences,Genealogy,Methods,Models,Statistical,Morphoscopic traits,Neural networks,Neural Networks (Computer),Support Vector Machine}
+    \endentry
+    \entry{henrich2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=135deb37dc4a16e2d813922bf87fe654}{%
+           family={Henrich},
+           familyi={H\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{135deb37dc4a16e2d813922bf87fe654}
+      \strng{fullhash}{135deb37dc4a16e2d813922bf87fe654}
+      \strng{bibnamehash}{135deb37dc4a16e2d813922bf87fe654}
+      \strng{authorbibnamehash}{135deb37dc4a16e2d813922bf87fe654}
+      \strng{authornamehash}{135deb37dc4a16e2d813922bf87fe654}
+      \strng{authorfullhash}{135deb37dc4a16e2d813922bf87fe654}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{journaltitle}{Evolution and Human Behavior}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shortjournal}{Evolution and Human Behavior}
+      \field{shorttitle}{The evolution of costly displays, cooperation and religion}
+      \field{title}{The evolution of costly displays, cooperation and religion: credibility enhancing displays and their implications for cultural evolution}
+      \field{volume}{30}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{244\bibrangedash 260}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.evolhumbehav.2009.03.005
+      \endverb
+      \verb{file}
+      \verb Henrich - 2009 - The evolution of costly displays, cooperation and .pdf:/Users/arsenegery/Zotero/storage/CTXA83SL/Henrich - 2009 - The evolution of costly displays, cooperation and .pdf:application/pdf;ScienceDirect Snapshot:/Users/arsenegery/Zotero/storage/RCXVV4KT/S1090513809000245.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1090513809000245
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1090513809000245
+      \endverb
+      \keyw{Religion,Ritual,Cooperation,Credibility enhancing displays,Cultural group selection,Cultural transmission,Dual inheritance theory}
+    \endentry
+    \entry{hirschfeld1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b2a4099ffece6eccd141253e8aeb9afd}{%
+           family={Hirschfeld},
+           familyi={H\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2a4099ffece6eccd141253e8aeb9afd}
+      \strng{fullhash}{b2a4099ffece6eccd141253e8aeb9afd}
+      \strng{bibnamehash}{b2a4099ffece6eccd141253e8aeb9afd}
+      \strng{authorbibnamehash}{b2a4099ffece6eccd141253e8aeb9afd}
+      \strng{authornamehash}{b2a4099ffece6eccd141253e8aeb9afd}
+      \strng{authorfullhash}{b2a4099ffece6eccd141253e8aeb9afd}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{29}
+      \field{month}{4}
+      \field{shorttitle}{Mapping the Mind}
+      \field{title}{Mapping the Mind: Domain Specificity in Cognition and Culture}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9780511752902.009
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/arsenegery/Zotero/storage/MHVGAXPM/Hirschfeld - 1994 - Mapping the Mind Domain Specificity in Cognition .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{irons2001religion}{article}{}
+      \name{author}{1}{}{%
+        {{hash=33e6d618cfe7b3c0cd6a2775428faaa3}{%
+           family={Irons},
+           familyi={I\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{33e6d618cfe7b3c0cd6a2775428faaa3}
+      \strng{fullhash}{33e6d618cfe7b3c0cd6a2775428faaa3}
+      \strng{bibnamehash}{33e6d618cfe7b3c0cd6a2775428faaa3}
+      \strng{authorbibnamehash}{33e6d618cfe7b3c0cd6a2775428faaa3}
+      \strng{authornamehash}{33e6d618cfe7b3c0cd6a2775428faaa3}
+      \strng{authorfullhash}{33e6d618cfe7b3c0cd6a2775428faaa3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolution and the capacity for commitment}
+      \field{title}{Religion as a hard-to-fake sign of commitment}
+      \field{volume}{292309}
+      \field{year}{2001}
+    \endentry
+    \entry{johne.pfeiffer1984}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dbe9d68fda85eab7a92caa9125cfcbaa}{%
+           family={John\bibnamedelimb E.\bibnamedelimi Pfeiffer},
+           familyi={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbe9d68fda85eab7a92caa9125cfcbaa}
+      \strng{fullhash}{dbe9d68fda85eab7a92caa9125cfcbaa}
+      \strng{bibnamehash}{dbe9d68fda85eab7a92caa9125cfcbaa}
+      \strng{authorbibnamehash}{dbe9d68fda85eab7a92caa9125cfcbaa}
+      \strng{authornamehash}{dbe9d68fda85eab7a92caa9125cfcbaa}
+      \strng{authorfullhash}{dbe9d68fda85eab7a92caa9125cfcbaa}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Antiquity}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{223}
+      \field{shorttitle}{John E. Pfeiffer}
+      \field{title}{The creative explosion. An inquiry into the origins of art and religion.}
+      \field{volume}{58}
+      \field{year}{1984}
+      \field{dateera}{ce}
+      \field{pages}{136\bibrangedash 137}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1017/S0003598X00051619
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/arsenegery/Zotero/storage/FUJJFAG2/Ucko - 1984 - John E. Pfeiffer The creative explosion. An inqui.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/antiquity/article/john-e-pfeiffer-the-creative-explosion-an-inquiry-into-the-origins-of-art-and-religion-new-york-harper-row-1982-270-pp-16-colour-pls-80-intext-illustrations-1850/455539F9FF0156BBAE461DCAB7583122
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/antiquity/article/john-e-pfeiffer-the-creative-explosion-an-inquiry-into-the-origins-of-art-and-religion-new-york-harper-row-1982-270-pp-16-colour-pls-80-intext-illustrations-1850/455539F9FF0156BBAE461DCAB7583122
+      \endverb
+    \endentry
+    \entry{kapitany2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=039da1c2e404ddcf96667f724c4226d8}{%
+           family={Kapitány},
+           familyi={K\bibinitperiod},
+           given={Rohan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9d607d60f28dce8f15f44004707e0002}{%
+           family={Kavanagh},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cf511575fb060de46a17e3bf06c9aa0}
+      \strng{fullhash}{3cf511575fb060de46a17e3bf06c9aa0}
+      \strng{bibnamehash}{3cf511575fb060de46a17e3bf06c9aa0}
+      \strng{authorbibnamehash}{3cf511575fb060de46a17e3bf06c9aa0}
+      \strng{authornamehash}{3cf511575fb060de46a17e3bf06c9aa0}
+      \strng{authorfullhash}{3cf511575fb060de46a17e3bf06c9aa0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Philosophical Transactions: Biological Sciences}
+      \field{note}{Publisher: Royal Society}
+      \field{number}{1805}
+      \field{shorttitle}{Ritual morphospace revisited}
+      \field{title}{Ritual morphospace revisited: the form, function and factor structure of ritual practice}
+      \field{volume}{375}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/9JKZW8YB/Kapitány et al. - 2020 - Ritual morphospace revisited the form, function a.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/26991561
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/26991561
+      \endverb
+    \endentry
+    \entry{klein2002}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1ae969c84733ca76bff1f94b14613d5b}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={{Cecelia\bibnamedelimb F}.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6675208d4cb46d78bd53e4ba258a3c42}{%
+           family={Guzmn},
+           familyi={G\bibinitperiod},
+           given={Eulogio},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2ad914f2234b616dd7767d1bd11221d1}{%
+           family={Mandell},
+           familyi={M\bibinitperiod},
+           given={{ElisaC}.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=192b788e1c7b00a30931adeeb1ab913b}{%
+           family={{StanfieldMazzi}},
+           familyi={S\bibinitperiod},
+           given={Maya},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e25b1e33196c100c792baaa0e5b88d00}
+      \strng{fullhash}{3d82d934a3ec3772be4254fcf1f07431}
+      \strng{bibnamehash}{e25b1e33196c100c792baaa0e5b88d00}
+      \strng{authorbibnamehash}{e25b1e33196c100c792baaa0e5b88d00}
+      \strng{authornamehash}{e25b1e33196c100c792baaa0e5b88d00}
+      \strng{authorfullhash}{3d82d934a3ec3772be4254fcf1f07431}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Current Anthropology}
+      \field{note}{Publisher: [The University of Chicago Press, Wenner-Gren Foundation for Anthropological Research]}
+      \field{number}{3}
+      \field{shorttitle}{The Role of Shamanism in Mesoamerican Art}
+      \field{title}{The Role of Shamanism in Mesoamerican Art: A Reassessment}
+      \field{volume}{43}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{383\bibrangedash 419}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1086/339529
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/Q47BEVB4/Klein et al. - 2002 - The Role of Shamanism in Mesoamerican Art A Reass.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/10.1086/339529
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/10.1086/339529
+      \endverb
+    \endentry
+    \entry{lawson1990}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d20d5c2af1bc1f1ac756a0973f822ccc}{%
+           family={Lawson},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi Thomas},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=eb31cccf03b9d6e906fef58c4e8afc43}{%
+           family={{McCauley}},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima N.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, {NY}, {US}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{fdb630cca808ba0760b3fb20212d97da}
+      \strng{fullhash}{fdb630cca808ba0760b3fb20212d97da}
+      \strng{bibnamehash}{fdb630cca808ba0760b3fb20212d97da}
+      \strng{authorbibnamehash}{fdb630cca808ba0760b3fb20212d97da}
+      \strng{authornamehash}{fdb630cca808ba0760b3fb20212d97da}
+      \strng{authorfullhash}{fdb630cca808ba0760b3fb20212d97da}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{note}{Pages: ix, 194}
+      \field{pagetotal}{ix, 194}
+      \field{series}{Rethinking religion: Connecting cognition and culture}
+      \field{shorttitle}{Rethinking religion}
+      \field{title}{Rethinking religion: Connecting cognition and culture}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/arsenegery/Zotero/storage/BAR92FHM/1990-97822-000.html:text/html
+      \endverb
+      \keyw{Religion,Cognition,Culture (Anthropological),Religious Practices,Semantics,Theory Formulation}
+    \endentry
+    \entry{lewis2003}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e0e8888cad4bf49cc472844993e121e7}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Ioan\bibnamedelima Myrddin},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{e0e8888cad4bf49cc472844993e121e7}
+      \strng{fullhash}{e0e8888cad4bf49cc472844993e121e7}
+      \strng{bibnamehash}{e0e8888cad4bf49cc472844993e121e7}
+      \strng{authorbibnamehash}{e0e8888cad4bf49cc472844993e121e7}
+      \strng{authornamehash}{e0e8888cad4bf49cc472844993e121e7}
+      \strng{authorfullhash}{e0e8888cad4bf49cc472844993e121e7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Third ed}
+      \field{note}{Country: {GB} 22 cm. Bibliogr. p. 185-194. Index.}
+      \field{pagetotal}{200}
+      \field{shorttitle}{Ecstatic religion}
+      \field{title}{Ecstatic religion : a study of shamanism and spirit possession}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \keyw{Extase,Possession (anthropologie)}
+    \endentry
+    \entry{lienard2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d05cb1fe2a50c98babe46317c398ab1a}{%
+           family={Lienard},
+           familyi={L\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=03160a5e948c51167cff9c2b696f774d}{%
+           family={Boyer},
+           familyi={B\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba45b50c58404ad2b3f4726c8d33f574}
+      \strng{fullhash}{ba45b50c58404ad2b3f4726c8d33f574}
+      \strng{bibnamehash}{ba45b50c58404ad2b3f4726c8d33f574}
+      \strng{authorbibnamehash}{ba45b50c58404ad2b3f4726c8d33f574}
+      \strng{authornamehash}{ba45b50c58404ad2b3f4726c8d33f574}
+      \strng{authorfullhash}{ba45b50c58404ad2b3f4726c8d33f574}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{journaltitle}{American Anthropologist}
+      \field{month}{12}
+      \field{shorttitle}{Whence Cultural Rituals?}
+      \field{title}{Whence Cultural Rituals? A Cultural Selection Model of Ritualized Behavior}
+      \field{volume}{108}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1525/aa.2006.108.4.814
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/arsenegery/Zotero/storage/88L3BQBE/Lienard and Boyer - 2006 - Whence Cultural Rituals A Cultural Selection Mode.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{littlewood2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ff8d5556f2dc52e19e675f04866e8f8}{%
+           family={Littlewood},
+           familyi={L\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ff8d5556f2dc52e19e675f04866e8f8}
+      \strng{fullhash}{7ff8d5556f2dc52e19e675f04866e8f8}
+      \strng{bibnamehash}{7ff8d5556f2dc52e19e675f04866e8f8}
+      \strng{authorbibnamehash}{7ff8d5556f2dc52e19e675f04866e8f8}
+      \strng{authornamehash}{7ff8d5556f2dc52e19e675f04866e8f8}
+      \strng{authorfullhash}{7ff8d5556f2dc52e19e675f04866e8f8}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Anthropos}
+      \field{number}{2}
+      \field{shorttitle}{{McCauley}, Robert N., and E. Thomas Lawson}
+      \field{title}{{McCauley}, Robert N., and E. Thomas Lawson: Bringing Ritual to Mind. Psychological Foundations of Cultural Forms}
+      \field{volume}{100}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{622\bibrangedash 623}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.5771/0257-9774-2005-2-622
+      \endverb
+    \endentry
+    \entry{locke1985}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d45833551c7d2e636e634539b7b375d4}{%
+           family={Locke},
+           familyi={L\bibinitperiod},
+           given={Ralph\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=02967954ae3fc4dbbc5647244b47580a}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Edward\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad0d93e589b4f3fa121ddff77e925d39}
+      \strng{fullhash}{ad0d93e589b4f3fa121ddff77e925d39}
+      \strng{bibnamehash}{ad0d93e589b4f3fa121ddff77e925d39}
+      \strng{authorbibnamehash}{ad0d93e589b4f3fa121ddff77e925d39}
+      \strng{authornamehash}{ad0d93e589b4f3fa121ddff77e925d39}
+      \strng{authorfullhash}{ad0d93e589b4f3fa121ddff77e925d39}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethos}
+      \field{note}{Publisher: [American Anthropological Association, Wiley]}
+      \field{number}{1}
+      \field{title}{A Preliminary Model for the Cross-Cultural Analysis of Altered States of Consciousness}
+      \field{volume}{13}
+      \field{year}{1985}
+      \field{dateera}{ce}
+      \field{pages}{3\bibrangedash 55}
+      \range{pages}{53}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/4GUQ4ZHW/Locke and Kelly - 1985 - A Preliminary Model for the Cross-Cultural Analysi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/640008
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/640008
+      \endverb
+    \endentry
+    \entry{ludwig1966}{article}{}
+      \name{author}{1}{}{%
+        {{hash=849639c1c71422910fd944a69f8f7e1c}{%
+           family={Ludwig},
+           familyi={L\bibinitperiod},
+           given={Arnold\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{849639c1c71422910fd944a69f8f7e1c}
+      \strng{fullhash}{849639c1c71422910fd944a69f8f7e1c}
+      \strng{bibnamehash}{849639c1c71422910fd944a69f8f7e1c}
+      \strng{authorbibnamehash}{849639c1c71422910fd944a69f8f7e1c}
+      \strng{authornamehash}{849639c1c71422910fd944a69f8f7e1c}
+      \strng{authorfullhash}{849639c1c71422910fd944a69f8f7e1c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of General Psychiatry}
+      \field{note}{Place: {US} Publisher: American Medical Association}
+      \field{number}{3}
+      \field{title}{Altered states of consciousness}
+      \field{volume}{15}
+      \field{year}{1966}
+      \field{dateera}{ce}
+      \field{pages}{225\bibrangedash 234}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1001/archpsyc.1966.01730150001001
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/arsenegery/Zotero/storage/KSNJ36RI/1966-12371-001.html:text/html
+      \endverb
+      \keyw{Consciousness States,Body Image Disturbances,Consciousness Disturbances,Perceptual Distortion}
+    \endentry
+    \entry{lukoff1990}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0117f33a010ce3e21474554509b95836}{%
+           family={Lukoff},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0a8e7eaa7effca77959da9325fa91c53}{%
+           family={Zanger},
+           familyi={Z\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7430c56e21806fbb442442c7a428ecc7}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5db05ef064c67586a692c0caa54d250}
+      \strng{fullhash}{b5db05ef064c67586a692c0caa54d250}
+      \strng{bibnamehash}{b5db05ef064c67586a692c0caa54d250}
+      \strng{authorbibnamehash}{b5db05ef064c67586a692c0caa54d250}
+      \strng{authornamehash}{b5db05ef064c67586a692c0caa54d250}
+      \strng{authorfullhash}{b5db05ef064c67586a692c0caa54d250}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Transpersonal Psychology}
+      \field{month}{1}
+      \field{shortjournal}{Journal of Transpersonal Psychology}
+      \field{shorttitle}{Transpersonal psychology research review}
+      \field{title}{Transpersonal psychology research review: Psychoactive substances and transpersonal states.}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{107\bibrangedash 148}
+      \range{pages}{42}
+      \verb{file}
+      \verb Full Text PDF:/Users/arsenegery/Zotero/storage/D4VXH3UC/Lukoff et al. - 1990 - Transpersonal psychology research review Psychoac.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{malkic2013}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b9467a21ebbed3fb98111b8e3ea0cc5c}{%
+           family={Malkić},
+           familyi={M\bibinitperiod},
+           given={Jasmin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2696c1c83e4a17f90c000c664bd0be97}{%
+           family={Sarajlić},
+           familyi={S\bibinitperiod},
+           given={Nermin},
+           giveni={N\bibinitperiod}}}%
+        {{hash=49f0e901b96b9f1225253f042a7f5e96}{%
+           family={Smrke},
+           familyi={S\bibinitperiod},
+           given={Barbara\bibnamedelimb U.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=194e410fd954d4a6ec733503273a7fa9}{%
+           family={Smrke},
+           familyi={S\bibinitperiod},
+           given={Dragica},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{cebbeee01118e4562b385609041b03f7}
+      \strng{fullhash}{47c432cb1b611982c2b11e39231ae520}
+      \strng{bibnamehash}{cebbeee01118e4562b385609041b03f7}
+      \strng{authorbibnamehash}{cebbeee01118e4562b385609041b03f7}
+      \strng{authornamehash}{cebbeee01118e4562b385609041b03f7}
+      \strng{authorfullhash}{47c432cb1b611982c2b11e39231ae520}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Collegium antropologicum}
+      \field{note}{Place: Croatia}
+      \field{number}{1}
+      \field{title}{Cluster analyses of association of weather, daily factors and emergent medical conditions}
+      \field{volume}{37}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{189\bibrangedash 194}
+      \range{pages}{6}
+      \keyw{Algorithms,Humans,Abdominal Pain - diagnosis,Chest Pain - diagnosis,Climate change,Cluster Analysis,Data Mining,Databases,Factual,Dizziness,emergency department visit,Emergency Service,Hospital - organization \& administration,Environmental effects,Headache - diagnosis,Lung Diseases - diagnosis,meteorology,Patients,primary health care,Primary Health Care - organization \& administration,Seasons,Stroke - diagnosis,Sweden,Uppsala,Weather}
+    \endentry
+    \entry{mccauley2002}{book}{}
+      \name{author}{2}{}{%
+        {{hash=eb31cccf03b9d6e906fef58c4e8afc43}{%
+           family={{McCauley}},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima N.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d20d5c2af1bc1f1ac756a0973f822ccc}{%
+           family={Lawson},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi Thomas},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {University Press}%
+      }
+      \strng{namehash}{ef9f766ff1b6d018b860320b6ba42d4d}
+      \strng{fullhash}{ef9f766ff1b6d018b860320b6ba42d4d}
+      \strng{bibnamehash}{ef9f766ff1b6d018b860320b6ba42d4d}
+      \strng{authorbibnamehash}{ef9f766ff1b6d018b860320b6ba42d4d}
+      \strng{authornamehash}{ef9f766ff1b6d018b860320b6ba42d4d}
+      \strng{authorfullhash}{ef9f766ff1b6d018b860320b6ba42d4d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{note}{Pages: xiii–xiii}
+      \field{shorttitle}{Bringing Ritual to Mind}
+      \field{title}{Bringing Ritual to Mind: Psychological Foundations of Cultural Forms}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9780511606410
+      \endverb
+      \keyw{Religion,Ritual,Cognition,Cognition and culture,Culture,Mind,Mysteries,Religious,Psychology,Psychology,Religious,Rites and ceremonies}
+    \endentry
+    \entry{merlin2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=647b46f867719e2a0e0e8f23c6c1f804}{%
+           family={Merlin},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{647b46f867719e2a0e0e8f23c6c1f804}
+      \strng{fullhash}{647b46f867719e2a0e0e8f23c6c1f804}
+      \strng{bibnamehash}{647b46f867719e2a0e0e8f23c6c1f804}
+      \strng{authorbibnamehash}{647b46f867719e2a0e0e8f23c6c1f804}
+      \strng{authornamehash}{647b46f867719e2a0e0e8f23c6c1f804}
+      \strng{authorfullhash}{647b46f867719e2a0e0e8f23c6c1f804}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economic Botany}
+      \field{note}{Publisher: New York Botanical Garden Press}
+      \field{number}{3}
+      \field{title}{Archaeological Evidence for the Tradition of Psychoactive Plant Use in the Old World}
+      \field{volume}{57}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{295\bibrangedash 323}
+      \range{pages}{29}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/REMAMBKL/Merlin - 2003 - Archaeological Evidence for the Tradition of Psych.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/4256701
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/4256701
+      \endverb
+    \endentry
+    \entry{mithen2004}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=ba73d25220647f09ae9e4a10888645d3}{%
+           family={Mithen},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=fa24ddde2f7f746a770e26af6872267c}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0483a5667ffdbc619ac340547dc20710}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={L.\bibnamedelimi H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Walnut Creek {CA}}%
+      }
+      \list{publisher}{1}{%
+        {{AltaMira} Press}%
+      }
+      \strng{namehash}{ba73d25220647f09ae9e4a10888645d3}
+      \strng{fullhash}{ba73d25220647f09ae9e4a10888645d3}
+      \strng{bibnamehash}{ba73d25220647f09ae9e4a10888645d3}
+      \strng{authorbibnamehash}{ba73d25220647f09ae9e4a10888645d3}
+      \strng{authornamehash}{ba73d25220647f09ae9e4a10888645d3}
+      \strng{authorfullhash}{ba73d25220647f09ae9e4a10888645d3}
+      \strng{editorbibnamehash}{56fc3665c2e048eb81a7d2612956a29e}
+      \strng{editornamehash}{56fc3665c2e048eb81a7d2612956a29e}
+      \strng{editorfullhash}{56fc3665c2e048eb81a7d2612956a29e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{From Ohalo to Çatalhöyük}
+      \field{title}{From Ohalo to Çatalhöyük: the development of religiosity during the early prehistory of Western Asia, 20,000-7000 {BC}}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{17\bibrangedash 43}
+      \range{pages}{27}
+      \verb{file}
+      \verb Snapshot:/Users/arsenegery/Zotero/storage/6VNIWNY7/3840.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://centaur.reading.ac.uk/3840/
+      \endverb
+      \verb{url}
+      \verb https://centaur.reading.ac.uk/3840/
+      \endverb
+    \endentry
+    \entry{muchlinski2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2f5bb5e2948f57b928fbfa0a6c685121}{%
+           family={Muchlinski},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d69f2526d690b6a716b3d602d6899a00}{%
+           family={Siroky},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ea7bdf20fe091d1e71ea405a122559a5}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Jingrui},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6a275a64dc582b2f7b16437351393655}{%
+           family={Kocher},
+           familyi={K\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{abdfdee159775a80fed52d8121ca80e3}
+      \strng{fullhash}{5a48cf54ba6d4404badb4e4a0f912482}
+      \strng{bibnamehash}{abdfdee159775a80fed52d8121ca80e3}
+      \strng{authorbibnamehash}{abdfdee159775a80fed52d8121ca80e3}
+      \strng{authornamehash}{abdfdee159775a80fed52d8121ca80e3}
+      \strng{authorfullhash}{5a48cf54ba6d4404badb4e4a0f912482}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Analysis}
+      \field{note}{Publisher: [Oxford University Press, Society for Political Methodology]}
+      \field{number}{1}
+      \field{title}{Comparing Random Forest with Logistic Regression for Predicting Class-Imbalanced Civil War Onset Data}
+      \field{volume}{24}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{87\bibrangedash 103}
+      \range{pages}{17}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/6X5IV6V5/Muchlinski et al. - 2016 - Comparing Random Forest with Logistic Regression f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/24573207
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/24573207
+      \endverb
+    \endentry
+    \entry{price-williams1994}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c75323a64566c4b2a1385fe112583e86}{%
+           family={Price-Williams},
+           familyi={P\bibinithyphendelim W\bibinitperiod},
+           given={Douglass},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f13d4d824af939685fc31aa9bc1524c9}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Dureen\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d055e228ee2e6283cda691dc09bc6728}
+      \strng{fullhash}{d055e228ee2e6283cda691dc09bc6728}
+      \strng{bibnamehash}{d055e228ee2e6283cda691dc09bc6728}
+      \strng{authorbibnamehash}{d055e228ee2e6283cda691dc09bc6728}
+      \strng{authornamehash}{d055e228ee2e6283cda691dc09bc6728}
+      \strng{authorfullhash}{d055e228ee2e6283cda691dc09bc6728}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Anthropology of Consciousness}
+      \field{number}{2}
+      \field{title}{Shamanism and Altered States of Consciousness}
+      \field{volume}{5}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1525/ac.1994.5.2.1
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/arsenegery/Zotero/storage/ZZMUXDCE/PRISAA-2.html:text/html
+      \endverb
+    \endentry
+    \entry{ramazzotti2018}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=6f7a8d26f8c1b1622984afb6718e53b3}{%
+           family={Ramazzotti},
+           familyi={R\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=022e65ecf7e6c93497cbf505c7311852}{%
+           family={Buscema},
+           familyi={B\bibinitperiod},
+           given={Paolo\bibnamedelima Massimo},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=962d5e19fcbaa8108cdbaf5abbc3d86e}{%
+           family={Massini},
+           familyi={M\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=3c35c9a461bec099ff5d6c5503220884}{%
+           family={Juloux},
+           familyi={J\bibinitperiod},
+           given={Vanessa\bibnamedelima Bigot},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=21d9b6cc06f93795003c2205cffcc9f5}{%
+           family={Gansell},
+           familyi={G\bibinitperiod},
+           given={Amy\bibnamedelima Rebecca},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=175225357ff7be9ea4b9f692cb76064e}{%
+           family={Ludovico},
+           familyi={L\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           prefix={di},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Brill}%
+      }
+      \strng{namehash}{9d413047c7570e60ca7d6832d4b0d21b}
+      \strng{fullhash}{9d413047c7570e60ca7d6832d4b0d21b}
+      \strng{bibnamehash}{9d413047c7570e60ca7d6832d4b0d21b}
+      \strng{authorbibnamehash}{9d413047c7570e60ca7d6832d4b0d21b}
+      \strng{authornamehash}{9d413047c7570e60ca7d6832d4b0d21b}
+      \strng{authorfullhash}{9d413047c7570e60ca7d6832d4b0d21b}
+      \strng{editorbibnamehash}{b2c200a0463ea4e072e10f10aa9b668d}
+      \strng{editornamehash}{b2c200a0463ea4e072e10f10aa9b668d}
+      \strng{editorfullhash}{b2c200a0463ea4e072e10f10aa9b668d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{{CyberResearch} on the Ancient Near East and Neighboring Regions}
+      \field{series}{Case Studies on Archaeological Data, Objects, Texts, and Digital Archiving}
+      \field{shorttitle}{Landscape Archaeology and Artificial Intelligence}
+      \field{title}{Landscape Archaeology and Artificial Intelligence: the Neural Hypersurface of the Mesopotamian Urban Revolution}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{60\bibrangedash 82}
+      \range{pages}{23}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/7S79DBB3/Ramazzotti et al. - 2018 - Landscape Archaeology and Artificial Intelligence.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/10.1163/j.ctv4v349g.11
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/10.1163/j.ctv4v349g.11
+      \endverb
+    \endentry
+    \entry{rappaport1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9b8e38410eb2d18deaadb51da4839417}{%
+           family={Rappaport},
+           familyi={R\bibinitperiod},
+           given={Roy\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9b8e38410eb2d18deaadb51da4839417}
+      \strng{fullhash}{9b8e38410eb2d18deaadb51da4839417}
+      \strng{bibnamehash}{9b8e38410eb2d18deaadb51da4839417}
+      \strng{authorbibnamehash}{9b8e38410eb2d18deaadb51da4839417}
+      \strng{authornamehash}{9b8e38410eb2d18deaadb51da4839417}
+      \strng{authorfullhash}{9b8e38410eb2d18deaadb51da4839417}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Cambridge Studies in Social and Cultural Anthropology}
+      \field{title}{Ritual and Religion in the Making of Humanity}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9780511814686
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/arsenegery/Zotero/storage/CH5S4U6L/99F1AE57E9E2ACFD4019ED9A6DA38036.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/books/ritual-and-religion-in-the-making-of-humanity/99F1AE57E9E2ACFD4019ED9A6DA38036
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/books/ritual-and-religion-in-the-making-of-humanity/99F1AE57E9E2ACFD4019ED9A6DA38036
+      \endverb
+    \endentry
+    \entry{richman2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aaec69bf68a5e6968fc730f00d4f1297}{%
+           family={Richman},
+           familyi={R\bibinitperiod},
+           given={Naomi\bibnamedelima Irit},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{aaec69bf68a5e6968fc730f00d4f1297}
+      \strng{fullhash}{aaec69bf68a5e6968fc730f00d4f1297}
+      \strng{bibnamehash}{aaec69bf68a5e6968fc730f00d4f1297}
+      \strng{authorbibnamehash}{aaec69bf68a5e6968fc730f00d4f1297}
+      \strng{authornamehash}{aaec69bf68a5e6968fc730f00d4f1297}
+      \strng{authorfullhash}{aaec69bf68a5e6968fc730f00d4f1297}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{27}
+      \field{journaltitle}{International Journal of Philosophy and Theology}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shorttitle}{What does it feel like to be post-secular?}
+      \field{title}{What does it feel like to be post-secular? Ritual expressions of religious affects in contemporary renewal movements}
+      \field{volume}{79}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{295\bibrangedash 310}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/21692327.2018.1434011
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/Users/arsenegery/Zotero/storage/Q3UCKGIV/Richman - 2018 - What does it feel like to be post-secular Ritual .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/21692327.2018.1434011
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/21692327.2018.1434011
+      \endverb
+      \keyw{affect theory,emotion,modernity,Pentecostalism,post-modernism,post-secularism,ritual,Secularism}
+    \endentry
+    \entry{derios1974}{article}{}
+      \name{author}{17}{}{%
+        {{hash=3cac7a1c7c93e7d65e355694768022f1}{%
+           family={Rios},
+           familyi={R\bibinitperiod},
+           given={Marlene\bibnamedelima Dobkin},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=bedcb3278e82c440945b60aa8352564a}{%
+           family={Alger},
+           familyi={A\bibinitperiod},
+           given={Norman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9fcfe2931423429594b357bca5dcc920}{%
+           family={Crumrine},
+           familyi={C\bibinitperiod},
+           given={N.\bibnamedelimi Ross},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=020f6702eb6bbeed7f1983e2cba6993e}{%
+           family={Furst},
+           familyi={F\bibinitperiod},
+           given={Peter\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=f6aa7cdd018c741cd05473d25a99398b}{%
+           family={Harman},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=829e6b43ebe0cee9990ad26502cc7a06}{%
+           family={Hellmuth},
+           familyi={H\bibinitperiod},
+           given={Nicholas\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=98183072f744016421516936b10fc85d}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Nicholas\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=781ad7018b79cb4357719ad038e36b41}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={William\bibnamedelima Clyde},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7ef4a500ad4cd52b88939b12228020df}{%
+           family={Koss},
+           familyi={K\bibinitperiod},
+           given={Joan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=23aa4a6defcc4605dcd9e762c39c72ed}{%
+           family={La\bibnamedelima Barre},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Weston},
+           giveni={W\bibinitperiod}}}%
+        {{hash=16f6d48a1fd2ab9046416cdc34b1ec94}{%
+           family={Landar},
+           familyi={L\bibinitperiod},
+           given={Herbert\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c3f8099fb12fb98ff447b2dde3f43811}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Joesph\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=51002a377e3d85cfb72467a751672fa3}{%
+           family={Proskouriakoff},
+           familyi={P\bibinitperiod},
+           given={Tatiana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b2592ff27ddc984c7038139f0e929957}{%
+           family={Rubel},
+           familyi={R\bibinitperiod},
+           given={Arthur\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fdf771fa9574ff8c572724d532bd7413}{%
+           family={Samaranch},
+           familyi={S\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=54878cf4b5a1d8dc00b678de284955b7}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi Eric\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cd9f13edd86bf6a5a5044224bf3a2ed2}{%
+           family={Wescott},
+           familyi={W\bibinitperiod},
+           given={Roger\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbbb645613ae003e656655eecf337f14}
+      \strng{fullhash}{9b9734eaa8568e9dbdceb135648c00b5}
+      \strng{bibnamehash}{dbbb645613ae003e656655eecf337f14}
+      \strng{authorbibnamehash}{dbbb645613ae003e656655eecf337f14}
+      \strng{authornamehash}{dbbb645613ae003e656655eecf337f14}
+      \strng{authorfullhash}{9b9734eaa8568e9dbdceb135648c00b5}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Anthropology}
+      \field{month}{6}
+      \field{note}{Publisher: The University of Chicago Press}
+      \field{number}{2}
+      \field{title}{The Influence of Psychotropic Flora and Fauna on Maya Religion [and Comments and Reply]}
+      \field{volume}{15}
+      \field{year}{1974}
+      \field{dateera}{ce}
+      \field{pages}{147\bibrangedash 164}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1086/201452
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/abs/10.1086/201452
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/abs/10.1086/201452
+      \endverb
+    \endentry
+    \entry{schjoedt2013}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0144cd06090de163528429fb87629d13}{%
+           family={Schjoedt},
+           familyi={S\bibinitperiod},
+           given={Uffe},
+           giveni={U\bibinitperiod}}}%
+        {{hash=59df28910d981d67ac9ec159a3e847ab}{%
+           family={Sørensen},
+           familyi={S\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b702621fcd486353410160b2f4129043}{%
+           family={Nielbo},
+           familyi={N\bibinitperiod},
+           given={Kristoffer\bibnamedelima Laigaard},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=c5bb5bef0fca0c404edd5714564aa9de}{%
+           family={Xygalatas},
+           familyi={X\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=24a869ca140c2b6ec85ad3b9eb7ddebf}{%
+           family={Mitkidis},
+           familyi={M\bibinitperiod},
+           given={Panagiotis},
+           giveni={P\bibinitperiod}}}%
+        {{hash=169f6fc5fcd151a6825000e5ce79bc75}{%
+           family={Bulbulia},
+           familyi={B\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e2b264ea7be9d1c1987aae442eedfbf}
+      \strng{fullhash}{0eae82c214961a522255f80e057203f4}
+      \strng{bibnamehash}{4e2b264ea7be9d1c1987aae442eedfbf}
+      \strng{authorbibnamehash}{4e2b264ea7be9d1c1987aae442eedfbf}
+      \strng{authornamehash}{4e2b264ea7be9d1c1987aae442eedfbf}
+      \strng{authorfullhash}{0eae82c214961a522255f80e057203f4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Religion, Brain \& Behavior}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Cognitive resource depletion in religious interactions}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{39\bibrangedash 55}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/2153599X.2012.736714
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/Users/arsenegery/Zotero/storage/H3NWJUK6/Schjoedt et al. - 2013 - Cognitive resource depletion in religious interact.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/2153599X.2012.736714
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/2153599X.2012.736714
+      \endverb
+      \keyw{authority,emotion regulation,predictive coding,resource depletion,ritualized behavior}
+    \endentry
+    \entry{schwenker2012}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3e680f73e719a14e933cd7335948b156}{%
+           family={Schwenker},
+           familyi={S\bibinitperiod},
+           given={Friedhelm},
+           giveni={F\bibinitperiod}}}%
+        {{hash=270fe4507613b054f67c59d72479ddbb}{%
+           family={Trentin},
+           familyi={T\bibinitperiod},
+           given={Edmondo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editora}{2}{}{%
+        {{hash=3e680f73e719a14e933cd7335948b156}{%
+           family={Schwenker},
+           familyi={S\bibinitperiod},
+           given={Friedhelm},
+           giveni={F\bibinitperiod}}}%
+        {{hash=270fe4507613b054f67c59d72479ddbb}{%
+           family={Trentin},
+           familyi={T\bibinitperiod},
+           given={Edmondo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{0294288502c92a3328cbc6f699a3f5de}
+      \strng{fullhash}{0294288502c92a3328cbc6f699a3f5de}
+      \strng{bibnamehash}{0294288502c92a3328cbc6f699a3f5de}
+      \strng{authorbibnamehash}{0294288502c92a3328cbc6f699a3f5de}
+      \strng{authornamehash}{0294288502c92a3328cbc6f699a3f5de}
+      \strng{authorfullhash}{0294288502c92a3328cbc6f699a3f5de}
+      \strng{editorabibnamehash}{0294288502c92a3328cbc6f699a3f5de}
+      \strng{editoranamehash}{0294288502c92a3328cbc6f699a3f5de}
+      \strng{editorafullhash}{0294288502c92a3328cbc6f699a3f5de}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{editoratype}{collaborator}
+      \field{series}{{LNCS} sublibrary. {SL} 7, Artificial intelligence}
+      \field{shorttitle}{Partially Supervised Learning}
+      \field{title}{Partially Supervised Learning: First {IAPR} {TC}3 Workshop, {PSL} 2011, Ulm, Germany, September 15-16, 2011, Revised Selected Papers}
+      \field{volume}{7081}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \keyw{Artificial intelligence,Machine learning,Congresses,Special computer methods}
+    \endentry
+    \entry{shi2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9331226ef68bbe6869e9079900c3a307}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f520a749adbb878b4ba30b3f54e0dad8}{%
+           family={Horvath},
+           familyi={H\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c922c7a49ebe4daefa66fdc1b46981f5}
+      \strng{fullhash}{c922c7a49ebe4daefa66fdc1b46981f5}
+      \strng{bibnamehash}{c922c7a49ebe4daefa66fdc1b46981f5}
+      \strng{authorbibnamehash}{c922c7a49ebe4daefa66fdc1b46981f5}
+      \strng{authornamehash}{c922c7a49ebe4daefa66fdc1b46981f5}
+      \strng{authorfullhash}{c922c7a49ebe4daefa66fdc1b46981f5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computational and Graphical Statistics}
+      \field{note}{Publisher: [American Statistical Association, Taylor \& Francis, Ltd., Institute of Mathematical Statistics, Interface Foundation of America]}
+      \field{number}{1}
+      \field{title}{Unsupervised Learning with Random Forest Predictors}
+      \field{volume}{15}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{118\bibrangedash 138}
+      \range{pages}{21}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/7JN9UPC3/Shi and Horvath - 2006 - Unsupervised Learning with Random Forest Predictor.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/27594168
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/27594168
+      \endverb
+    \endentry
+    \entry{sosis2003signaling}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cd18f07b9fee1ae2ef85787be10aa2ee}{%
+           family={Sosis},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3712f14ace244f3b99305996042d5937}{%
+           family={Alcorta},
+           familyi={A\bibinitperiod},
+           given={Candace},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{9e2d94b10d82dc3b04cff832f4ab30d8}
+      \strng{fullhash}{9e2d94b10d82dc3b04cff832f4ab30d8}
+      \strng{bibnamehash}{9e2d94b10d82dc3b04cff832f4ab30d8}
+      \strng{authorbibnamehash}{9e2d94b10d82dc3b04cff832f4ab30d8}
+      \strng{authornamehash}{9e2d94b10d82dc3b04cff832f4ab30d8}
+      \strng{authorfullhash}{9e2d94b10d82dc3b04cff832f4ab30d8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolutionary Anthropology: Issues, News, and Reviews: Issues, News, and Reviews}
+      \field{number}{6}
+      \field{title}{Signaling, solidarity, and the sacred: The evolution of religious behavior}
+      \field{volume}{12}
+      \field{year}{2003}
+      \field{pages}{264\bibrangedash 274}
+      \range{pages}{11}
+    \endentry
+    \entry{sosis2007scars}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cd18f07b9fee1ae2ef85787be10aa2ee}{%
+           family={Sosis},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e4290ded8aec9fec924e32ac4f849248}{%
+           family={Kress},
+           familyi={K\bibinitperiod},
+           given={Howard\bibnamedelima C},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d6e29941415655e0ba8493c10973f8ce}{%
+           family={Boster},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f2e61e9a4cd3948e06b0e22879e8365e}
+      \strng{fullhash}{f2e61e9a4cd3948e06b0e22879e8365e}
+      \strng{bibnamehash}{f2e61e9a4cd3948e06b0e22879e8365e}
+      \strng{authorbibnamehash}{f2e61e9a4cd3948e06b0e22879e8365e}
+      \strng{authornamehash}{f2e61e9a4cd3948e06b0e22879e8365e}
+      \strng{authorfullhash}{f2e61e9a4cd3948e06b0e22879e8365e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolution and human behavior}
+      \field{number}{4}
+      \field{title}{Scars for war: Evaluating alternative signaling explanations for cross-cultural variance in ritual costs}
+      \field{volume}{28}
+      \field{year}{2007}
+      \field{pages}{234\bibrangedash 247}
+      \range{pages}{14}
+    \endentry
+    \entry{sperber1996}{book}{}
+      \name{author}{1}{}{%
+        {{hash=668bce40d496b0ee9fba07b4b1040e79}{%
+           family={Sperber},
+           familyi={S\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{668bce40d496b0ee9fba07b4b1040e79}
+      \strng{fullhash}{668bce40d496b0ee9fba07b4b1040e79}
+      \strng{bibnamehash}{668bce40d496b0ee9fba07b4b1040e79}
+      \strng{authorbibnamehash}{668bce40d496b0ee9fba07b4b1040e79}
+      \strng{authornamehash}{668bce40d496b0ee9fba07b4b1040e79}
+      \strng{authorfullhash}{668bce40d496b0ee9fba07b4b1040e79}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{6}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{pagetotal}{188}
+      \field{shorttitle}{Explaining Culture}
+      \field{title}{Explaining Culture: A Naturalistic Approach}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \keyw{Philosophy / General,Science / Philosophy \& Social Aspects}
+    \endentry
+    \entry{sperber2004}{article}{}
+      \name{author}{2}{}{%
+        {{hash=668bce40d496b0ee9fba07b4b1040e79}{%
+           family={Sperber},
+           familyi={S\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=65e7fe5fa90582a28c6d2fdc9853880a}{%
+           family={Hirschfeld},
+           familyi={H\bibinitperiod},
+           given={Lawrence\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0ab7204b6e424a5c86fe4a108a199dc}
+      \strng{fullhash}{b0ab7204b6e424a5c86fe4a108a199dc}
+      \strng{bibnamehash}{b0ab7204b6e424a5c86fe4a108a199dc}
+      \strng{authorbibnamehash}{b0ab7204b6e424a5c86fe4a108a199dc}
+      \strng{authornamehash}{b0ab7204b6e424a5c86fe4a108a199dc}
+      \strng{authorfullhash}{b0ab7204b6e424a5c86fe4a108a199dc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Trends in Cognitive Sciences}
+      \field{title}{The cognitive foundations of cultural stability and diversity}
+      \field{volume}{8}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{40\bibrangedash 46}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.tics.2003.11.002
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/arsenegery/Zotero/storage/3EIRX8HC/Sperber and Hirschfeld - 2004 - The cognitive foundations of cultural stability an.pdf:application/pdf;ScienceDirect Snapshot:/Users/arsenegery/Zotero/storage/8ELPHNPU/S1364661303003140.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1364661303003140
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1364661303003140
+      \endverb
+    \endentry
+    \entry{turner1974}{book}{}
+      \name{author}{1}{}{%
+        {{hash=30ddd51cbc7eaf770fe67c8e5156adeb}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cornell University Press}%
+      }
+      \strng{namehash}{30ddd51cbc7eaf770fe67c8e5156adeb}
+      \strng{fullhash}{30ddd51cbc7eaf770fe67c8e5156adeb}
+      \strng{bibnamehash}{30ddd51cbc7eaf770fe67c8e5156adeb}
+      \strng{authorbibnamehash}{30ddd51cbc7eaf770fe67c8e5156adeb}
+      \strng{authornamehash}{30ddd51cbc7eaf770fe67c8e5156adeb}
+      \strng{authorfullhash}{30ddd51cbc7eaf770fe67c8e5156adeb}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Dramas, Fields, and Metaphors}
+      \field{title}{Dramas, Fields, and Metaphors: Symbolic Action in Human Society}
+      \field{year}{1974}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/10.7591/j.ctv75d7df
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/10.7591/j.ctv75d7df
+      \endverb
+    \endentry
+    \entry{turner1995}{book}{}
+      \name{author}{3}{}{%
+        {{hash=30ddd51cbc7eaf770fe67c8e5156adeb}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0c79ba6e99d5f54985cf28dd8502ffc3}{%
+           family={Abrahams},
+           familyi={A\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4ac8e5f6e4b500679f87c85d8c6d95c0}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{f2aa0cf20924d0a729c600bbf2c985c5}
+      \strng{fullhash}{f2aa0cf20924d0a729c600bbf2c985c5}
+      \strng{bibnamehash}{f2aa0cf20924d0a729c600bbf2c985c5}
+      \strng{authorbibnamehash}{f2aa0cf20924d0a729c600bbf2c985c5}
+      \strng{authornamehash}{f2aa0cf20924d0a729c600bbf2c985c5}
+      \strng{authorfullhash}{f2aa0cf20924d0a729c600bbf2c985c5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{31}
+      \field{month}{12}
+      \field{pagetotal}{232}
+      \field{shorttitle}{The Ritual Process}
+      \field{title}{The Ritual Process: Structure and Anti-Structure}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.4324/9781315134666
+      \endverb
+    \endentry
+    \entry{walsh2005higher}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c4a73dfbcebdbac53b8a1a6c4032566e}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=12d09b8d502d17b1c55ceaff23d01eb3}{%
+           family={Grob},
+           familyi={G\bibinitperiod},
+           given={Charles\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {State University of New York Press}%
+      }
+      \strng{namehash}{a800ac506d4550313b50dea4e755ce62}
+      \strng{fullhash}{a800ac506d4550313b50dea4e755ce62}
+      \strng{bibnamehash}{a800ac506d4550313b50dea4e755ce62}
+      \strng{authorbibnamehash}{a800ac506d4550313b50dea4e755ce62}
+      \strng{authornamehash}{a800ac506d4550313b50dea4e755ce62}
+      \strng{authorfullhash}{a800ac506d4550313b50dea4e755ce62}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Higher wisdom: Eminent elders explore the continuing impact of psychedelics}
+      \field{year}{2005}
+    \endentry
+    \entry{whitehouse2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fa24ddde2f7f746a770e26af6872267c}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{AltaMira} Press}%
+      }
+      \strng{namehash}{fa24ddde2f7f746a770e26af6872267c}
+      \strng{fullhash}{fa24ddde2f7f746a770e26af6872267c}
+      \strng{bibnamehash}{fa24ddde2f7f746a770e26af6872267c}
+      \strng{authorbibnamehash}{fa24ddde2f7f746a770e26af6872267c}
+      \strng{authornamehash}{fa24ddde2f7f746a770e26af6872267c}
+      \strng{authorfullhash}{fa24ddde2f7f746a770e26af6872267c}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Accepted Manuscript}
+      \field{title}{Theorizing religions past}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Full Text PDF:/Users/arsenegery/Zotero/storage/RDQSZDMR/Whitehouse - 2004 - Theorizing religions past.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ora.ox.ac.uk/objects/uuid:f60a5714-0f43-496d-92ba-b4cbe823ecb4
+      \endverb
+      \verb{url}
+      \verb https://ora.ox.ac.uk/objects/uuid:f60a5714-0f43-496d-92ba-b4cbe823ecb4
+      \endverb
+    \endentry
+    \entry{whitehouse2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {University Press}%
+      }
+      \strng{namehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{fullhash}{efeb03657f285a4e979046497ea295d3}
+      \strng{bibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorbibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authornamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorfullhash}{efeb03657f285a4e979046497ea295d3}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Arguments and icons}
+      \field{title}{Arguments and icons: divergent modes of religiosity / Harvey Whitehouse.}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \keyw{Religion,Memory,Melanesia,Religion and culture}
+    \endentry
+    \entry{whitehouse1992}{article}{}
+      \name{author}{1}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{fullhash}{efeb03657f285a4e979046497ea295d3}
+      \strng{bibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorbibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authornamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorfullhash}{efeb03657f285a4e979046497ea295d3}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Man}
+      \field{note}{Publisher: [Wiley, Royal Anthropological Institute of Great Britain and Ireland]}
+      \field{number}{4}
+      \field{shorttitle}{Memorable Religions}
+      \field{title}{Memorable Religions: Transmission, Codification and Change in Divergent Melanesian Contexts}
+      \field{volume}{27}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \field{pages}{777\bibrangedash 797}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.2307/2804174
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/LS5J6WVA/Whitehouse - 1992 - Memorable Religions Transmission, Codification an.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2804174
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2804174
+      \endverb
+    \endentry
+    \entry{whitehouse2004modes}{book}{}
+      \name{author}{1}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rowman Altamira}%
+      }
+      \strng{namehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{fullhash}{efeb03657f285a4e979046497ea295d3}
+      \strng{bibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorbibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authornamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorfullhash}{efeb03657f285a4e979046497ea295d3}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modes of religiosity: A cognitive theory of religious transmission}
+      \field{year}{2004}
+    \endentry
+    \entry{whitehouse2002}{article}{}
+      \name{author}{1}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{fullhash}{efeb03657f285a4e979046497ea295d3}
+      \strng{bibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorbibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authornamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorfullhash}{efeb03657f285a4e979046497ea295d3}
+      \field{extraname}{5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Method \& Theory in the Study of Religion}
+      \field{note}{Publisher: Brill}
+      \field{number}{3}
+      \field{shorttitle}{Modes of Religiosity}
+      \field{title}{Modes of Religiosity: Towards a Cognitive Explanation of the Sociopolitical Dynamics of Religion}
+      \field{volume}{14}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{293\bibrangedash 315}
+      \range{pages}{23}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/72V6HBVJ/Whitehouse - 2002 - Modes of Religiosity Towards a Cognitive Explanat.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/23550000
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/23550000
+      \endverb
+    \endentry
+    \entry{whitehouse2002a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{fullhash}{efeb03657f285a4e979046497ea295d3}
+      \strng{bibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorbibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authornamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorfullhash}{efeb03657f285a4e979046497ea295d3}
+      \field{extraname}{6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Social Anthropology}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Religious reflexivity and transmissive frequency}
+      \field{volume}{10}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{91\bibrangedash 103}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1017/S0964028202000071
+      \endverb
+    \endentry
+    \entry{whitehouse1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{fullhash}{efeb03657f285a4e979046497ea295d3}
+      \strng{bibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorbibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authornamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorfullhash}{efeb03657f285a4e979046497ea295d3}
+      \field{extraname}{7}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{The Journal of the Royal Anthropological Institute}
+      \field{note}{Publisher: [Wiley, Royal Anthropological Institute of Great Britain and Ireland]}
+      \field{number}{4}
+      \field{shorttitle}{Rites of Terror}
+      \field{title}{Rites of Terror: Emotion, Metaphor and Memory in Melanesian Initiation Cults}
+      \field{volume}{2}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{703\bibrangedash 715}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.2307/3034304
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/arsenegery/Zotero/storage/69C5TDPJ/Whitehouse - 1996 - Rites of Terror Emotion, Metaphor and Memory in M.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/3034304
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/3034304
+      \endverb
+    \endentry
+    \entry{whitehouse2005b}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{fullhash}{efeb03657f285a4e979046497ea295d3}
+      \strng{bibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorbibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authornamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorfullhash}{efeb03657f285a4e979046497ea295d3}
+      \field{extraname}{8}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{The Cognitive Foundations of Religiosity}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Full Text PDF:/Users/arsenegery/Zotero/storage/67SJRSBW/Whitehouse - 2005 - The Cognitive Foundations of Religiosity.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{whitehouse2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{fullhash}{efeb03657f285a4e979046497ea295d3}
+      \strng{bibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorbibnamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authornamehash}{efeb03657f285a4e979046497ea295d3}
+      \strng{authorfullhash}{efeb03657f285a4e979046497ea295d3}
+      \field{extraname}{9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cognition and Culture}
+      \field{note}{Publisher: Brill Academic Publishers}
+      \field{number}{2}
+      \field{title}{Transmissive Frequency, Ritual, and Exegesis}
+      \field{volume}{1}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{167\bibrangedash 181}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1163/156853701316931399
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/arsenegery/Zotero/storage/AQ24NWQ7/WHITFR-4.html:text/html
+      \endverb
+    \endentry
+    \entry{whitehouse2007}{book}{}
+      \name{author}{2}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5c7d623ca012b9266bf3c4437329f2f6}{%
+           family={Laidlaw},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Carolina Academic Press}%
+      }
+      \strng{namehash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{fullhash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{bibnamehash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{authorbibnamehash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{authornamehash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{authorfullhash}{27ef62953ef3f6d10921289813d1a15f}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{pagetotal}{316}
+      \field{title}{Religion, Anthropology, and Cognitive Science}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \keyw{Social Science / Anthropology / Cultural \& Social,Social Science / Sociology of Religion,Psychology / Ethnopsychology,Religion / General,Social Science / Anthropology / General}
+    \endentry
+    \entry{whitehouse2004a}{book}{}
+      \name{author}{2}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5c7d623ca012b9266bf3c4437329f2f6}{%
+           family={Laidlaw},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rowman Altamira}%
+      }
+      \strng{namehash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{fullhash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{bibnamehash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{authorbibnamehash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{authornamehash}{27ef62953ef3f6d10921289813d1a15f}
+      \strng{authorfullhash}{27ef62953ef3f6d10921289813d1a15f}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{pagetotal}{236}
+      \field{shorttitle}{Ritual and Memory}
+      \field{title}{Ritual and Memory: Toward a Comparative Anthropology of Religion}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \keyw{Religion / Philosophy,Religion / Psychology of Religion,Social Science / Anthropology / Cultural \& Social,Social Science / Sociology of Religion}
+    \endentry
+    \entry{whitehouse2005}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ba672e05bd8c0cfbba6a2b5b74bd79ed}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod}}}%
+        {{hash=77d12b94556b3753cdc8e66cae903579}{%
+           family={Richert},
+           familyi={R\bibinitperiod},
+           given={Rebekah},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{29d97e777443a344e605aa800106ae44}
+      \strng{fullhash}{29d97e777443a344e605aa800106ae44}
+      \strng{bibnamehash}{29d97e777443a344e605aa800106ae44}
+      \strng{authorbibnamehash}{29d97e777443a344e605aa800106ae44}
+      \strng{authornamehash}{29d97e777443a344e605aa800106ae44}
+      \strng{authorfullhash}{29d97e777443a344e605aa800106ae44}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{Memory and Analogical Thinking in High-Arousal Rituals}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/Users/arsenegery/Zotero/storage/BASZB2XY/Whitehouse et al. - 2005 - Memory and Analogical Thinking in High-Arousal Rit.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{whitehouse2014}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+        {{hash=84aaa1f7188f554c0db89639c6dcf914}{%
+           family={Mazzucato},
+           familyi={M\bibinitperiod},
+           given={Camilla},
+           giveni={C\bibinitperiod}}}%
+        {{hash=84b81dbbdd73b735e1fcb952b32e7e3b}{%
+           family={Hodder},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=327088ec1755cff92ca3bac4f63a1f80}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={Quentin\bibnamedelima D.},
+           giveni={Q\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=84b81dbbdd73b735e1fcb952b32e7e3b}{%
+           family={Hodder},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{fbf7f99a9defb8eef3da5929b1022fad}
+      \strng{fullhash}{76e3fc1c36845a5c13150a155cb5d194}
+      \strng{bibnamehash}{fbf7f99a9defb8eef3da5929b1022fad}
+      \strng{authorbibnamehash}{fbf7f99a9defb8eef3da5929b1022fad}
+      \strng{authornamehash}{fbf7f99a9defb8eef3da5929b1022fad}
+      \strng{authorfullhash}{76e3fc1c36845a5c13150a155cb5d194}
+      \strng{editorbibnamehash}{84b81dbbdd73b735e1fcb952b32e7e3b}
+      \strng{editornamehash}{84b81dbbdd73b735e1fcb952b32e7e3b}
+      \strng{editorfullhash}{84b81dbbdd73b735e1fcb952b32e7e3b}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Religion at Work in a Neolithic Society: Vital Matters}
+      \field{title}{Modes of Religiosity and the Evolution of Social Complexity at Çatalhöyük}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{134\bibrangedash 156}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1017/CBO9781107239043.008
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/arsenegery/Zotero/storage/KLW2BQ5L/6328A5C9CA3D9ECC52770C6A20166E71.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/books/religion-at-work-in-a-neolithic-society/modes-of-religiosity-and-the-evolution-of-social-complexity-at-catalhoyuk/6328A5C9CA3D9ECC52770C6A20166E71
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/books/religion-at-work-in-a-neolithic-society/modes-of-religiosity-and-the-evolution-of-social-complexity-at-catalhoyuk/6328A5C9CA3D9ECC52770C6A20166E71
+      \endverb
+    \endentry
+    \entry{whitehouse2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=efeb03657f285a4e979046497ea295d3}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Harvey},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e08c26fec097b613438f0774fdbf2188}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b13dad8c321e9b923c53a92451b81544}{%
+           family={Hochberg},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a7521dd374d12145d6057517263c662d}{%
+           family={Bryson},
+           familyi={B\bibinitperiod},
+           given={Joanna\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbf7f99a9defb8eef3da5929b1022fad}
+      \strng{fullhash}{42d2250185e32be60d6e9eb690e0b8a4}
+      \strng{bibnamehash}{fbf7f99a9defb8eef3da5929b1022fad}
+      \strng{authorbibnamehash}{fbf7f99a9defb8eef3da5929b1022fad}
+      \strng{authornamehash}{fbf7f99a9defb8eef3da5929b1022fad}
+      \strng{authorfullhash}{42d2250185e32be60d6e9eb690e0b8a4}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{journaltitle}{Religion, Brain \& Behavior}
+      \field{month}{10}
+      \field{number}{3}
+      \field{shorttitle}{The role for simulations in theory construction for the social sciences}
+      \field{title}{The role for simulations in theory construction for the social sciences: case studies concerning Divergent Modes of Religiosity}
+      \field{volume}{2}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{182\bibrangedash 201}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/2153599X.2012.691033
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/Users/arsenegery/Zotero/storage/SAXU9JKU/Whitehouse et al. - 2012 - The role for simulations in theory construction fo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/2153599X.2012.691033
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/2153599X.2012.691033
+      \endverb
+      \keyw{ritual,{ABM},cargo cult,computational modeling,modes of religiosity,religion,simulations,socio-cultural evolution}
+    \endentry
+    \entry{wissler1922}{book}{}
+      \name{author}{1}{}{%
+        {{hash=40ec4561c425597b4a38780e216ca9b8}{%
+           family={Wissler},
+           familyi={W\bibinitperiod},
+           given={Clark},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{40ec4561c425597b4a38780e216ca9b8}
+      \strng{fullhash}{40ec4561c425597b4a38780e216ca9b8}
+      \strng{bibnamehash}{40ec4561c425597b4a38780e216ca9b8}
+      \strng{authorbibnamehash}{40ec4561c425597b4a38780e216ca9b8}
+      \strng{authornamehash}{40ec4561c425597b4a38780e216ca9b8}
+      \strng{authorfullhash}{40ec4561c425597b4a38780e216ca9b8}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{pagetotal}{546}
+      \field{shorttitle}{The American Indian}
+      \field{title}{The American Indian: An Introduction to the Anthropology of the New World}
+      \field{year}{1922}
+      \field{dateera}{ce}
+    \endentry
+    \entry{yuadi2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=21e7e55df658f08c0fb38e8bf5523665}{%
+           family={Yuadi},
+           familyi={Y\bibinitperiod},
+           given={Imam},
+           giveni={I\bibinitperiod}}}%
+        {{hash=19a91cffa9dbbf0466f1a129da7a9eae}{%
+           family={Artaria},
+           familyi={A\bibinitperiod},
+           given={Myrtati\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d89c7c2d6b5aa11c4b8de2d204139fd1}{%
+           family={{Sakina}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=acfad6559c811840ae36f0fcd20c8aa1}{%
+           family={Asyhari},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi Taufiq},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa9cf8f74d18256d4e1a96eb67fd1c0f}
+      \strng{fullhash}{4238450d0bcbcd531276ab718997828f}
+      \strng{bibnamehash}{fa9cf8f74d18256d4e1a96eb67fd1c0f}
+      \strng{authorbibnamehash}{fa9cf8f74d18256d4e1a96eb67fd1c0f}
+      \strng{authornamehash}{fa9cf8f74d18256d4e1a96eb67fd1c0f}
+      \strng{authorfullhash}{4238450d0bcbcd531276ab718997828f}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers, materials \& continua}
+      \field{note}{Place: Henderson Publisher: Tech Science Press}
+      \field{number}{3}
+      \field{title}{Digital forensics for skulls classification in physical anthropology collection management}
+      \field{volume}{68}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{3979\bibrangedash 3995}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.32604/cmc.2021.015417
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/arsenegery/Zotero/storage/UP4AUJ9R/Yuadi et al. - 2021 - Digital forensics for skulls classification in phy.pdf:application/pdf
+      \endverb
+      \keyw{Classification,Anthropology,Collections,Computer forensics,Discrete Wavelet Transform,Feature extraction,Forensic computing,Fractal transforms,Gabor,Gray-level co-occurrence matrix,Human skulls,Labels,Mathematical analysis,Matrix methods,Physical anthropology,Physical properties,Skull,Support vector machine,Support vector machines,Wavelet transforms}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

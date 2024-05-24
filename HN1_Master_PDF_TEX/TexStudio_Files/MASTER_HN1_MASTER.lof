@@ -1,0 +1,22 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Contrasting modes of religiosity \blx@tocontentsinit {0}\cite {whitehouse2004modes}\relax }}{7}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Types of memory \blx@tocontentsinit {0}\cite {whitehouse2004modes}\relax }}{8}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Hypotheses of the DMR (\blx@tocontentsinit {0}\cite {atkinson2011})\relax }}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Correlation (Spearman's rho), p-values (left), and stepwise hierarchical regression predicting euphoric ritual arousal (top right) and dysphoric ritual arousal (bottom right) - as outlined in Whitehouse and Atkinson 2011.\relax }}{10}{figure.caption.8}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Exhaustive list of ritual components.\relax }}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Exhaustive list of ritual-level and society-level components.\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces List of societies and religious traditions analysed.\relax }}{14}{figure.caption.11}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Elbow method and silhouette score results.\relax }}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Recapitulation of the processes for the realisation of this project.\relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sample of the religious traditions cosine similarity matrix produced.\relax }}{22}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Detail of individual explained variance for each component after PCA.\relax }}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Summary statistics for each principal component.\relax }}{23}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sample of principal component loadings per religious tradition.\relax }}{24}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Dendrogram of the hierarchical clustering analysis at cutoff distance of 3.\relax }}{25}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ANOVA results across ritual-level and society-level predictor variables.\relax }}{26}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Heatmap of cluster pair p-adj values across predictor variables (3 clusters).\relax }}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Hierarchical clustering dendrogram at a cutoff distance of 1.8 (9 clusters).\relax }}{29}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Heatmap of cluster pair p-adj values across predictor variables (9 clusters).\relax }}{30}{figure.caption.22}%
+\addvspace {10\p@ }
